@@ -1,0 +1,5 @@
+log/*
+db/*.sql
+Capfile
+config/deploy.rb
+config/config.yml
