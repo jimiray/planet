@@ -1,9 +1,9 @@
 development:
   adapter: mysql
-  database: planet_production
+  database: planet_development
   host: localhost
-  username: planet
-  password: 9Q6573?k
+  username: root
+  password: 
 
 test:
   adapter: mysql
@@ -16,5 +16,5 @@ production:
   adapter: mysql
   database: planet_production
   host: localhost
-  username: planet
-  password: 9Q6573?k
+  username: root
+  password: 
