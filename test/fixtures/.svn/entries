@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="72"
+   name=""
+   committed-date="2006-02-07T15:05:04.129159Z"
+   url="http://wush.net/svn/rails_planet/trunk/test/fixtures"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="72"
+   name="pages.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:05:04.129159Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="68"
+   name="settings.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:03:42.655850Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="1"
+   name="users.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="c5040700825d1e613cba08ce201e8e52"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="69"
+   name="themes.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:04:13.444553Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="1"
+   name="feeds.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="6b9d04288a0ea735ed85f90650101e23"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   name="notify"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="posts.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="7d01c6ad44f66475fa434574aaae55ca"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="70"
+   name="tags.yml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:04:32.140135Z"
+   checksum="ed2fd6f8dfcd29af635c13d69dd81d7e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+</wc-entries>

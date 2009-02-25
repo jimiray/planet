@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2006-02-12T14:41:39.198771Z"
+   url="http://wush.net/svn/rails_planet/trunk/db/migrate"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="48"
+   name="003_add_tags_table.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-07T14:50:33.254023Z"
+   checksum="1151633f64d2008c0d7d9b2d98f8fc2c"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="48"
+   name="002_update_feeds_for_feed_tools.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-07T14:50:33.254023Z"
+   checksum="236bc3b0d287ceb68f3b8d409fa26b48"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="48"
+   name="005_add_pages_table.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-07T14:50:33.254023Z"
+   checksum="399d04215f74c22bf89f6e9ad47e5f17"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="48"
+   name="001_add_bounce.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-07T14:50:33.254023Z"
+   checksum="792d8d6cf1675713aaefd09951425d15"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="79"
+   name="007_add_settings_table.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:33:09.553040Z"
+   checksum="1c5e919842eda781f32dbb108a50529a"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="48"
+   name="006_update_posts_table.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-07T14:50:33.254023Z"
+   checksum="b587a7b7204523cb59fbc4855d7541a9"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="48"
+   name="004_add_tags_posts_table.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-07T14:50:33.254023Z"
+   checksum="a73a1b0a8ef9ffe5d08e01126088d407"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="90"
+   name="008_add_sidebars.rb"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:41:39.198771Z"
+   checksum="26f2bac8e5821e69b0793f4e52475991"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+</wc-entries>

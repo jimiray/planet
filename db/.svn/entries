@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2006-02-12T14:41:39.198771Z"
+   url="http://wush.net/svn/rails_planet/trunk/db"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="1"
+   name="planet_mysql.sql"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="39e030a656d43eee63c1203c9835aac6"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="23"
+   name="planet_postgres.sql"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2005-10-11T14:27:50.597358Z"
+   checksum="4ce95ae7c3f0be430e06311c2782a0e1"
+   last-author="robby"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   name="migrate"
+   kind="dir"/>
+</wc-entries>

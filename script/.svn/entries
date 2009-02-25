@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="44"
+   name=""
+   committed-date="2006-02-07T14:47:27.137539Z"
+   url="http://wush.net/svn/rails_planet/trunk/script"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   name="performance"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="benchmarker"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="8a590aa44b245d22628e64faa1cb230f"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="44"
+   name="console"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="e9da4d9bd98b629d856b280caa927f42"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="1"
+   name="console_sandbox.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="3418de05cf28e82a53ed10df6c87a2f1"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="1"
+   name="profiler"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="e63879204f62043b9a9f6dffb3b008b4"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="44"
+   name="breakpointer"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="efe05546991854cb1323026c0cdc7d27"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="44"
+   name="server"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="bba2905059daec6033f7a51cff19aff6"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="44"
+   name="destroy"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="f09bb329fb28e89340567a704a4619f8"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="2"
+   name="runner"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:59:22.715310Z"
+   checksum="35b5f47056a8431c9fcb4793a886e0aa"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="44"
+   name="about"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="e8f2a1c34090a8be9dd2a635a6c51d9e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="44"
+   name="generate"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="ef69c53ee39f550f43a4bd3a09482ff7"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   name="process"
+   kind="dir"/>
+<entry
+   committed-rev="44"
+   name="plugin"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:27.137539Z"
+   checksum="4c5aa44730cde119ab839486212f4ac5"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="41"
+   name=""
+   committed-date="2006-02-07T14:45:35.541165Z"
+   url="http://wush.net/svn/rails_planet/trunk/public/javascripts"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="41"
+   name="prototype.js"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:45:35.541165Z"
+   checksum="ec266084ece29ede795db38c9c8cbf3d"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="41"
+   name="effects.js"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:45:35.541165Z"
+   checksum="605714e775e00553107917f954912b8b"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="41"
+   name="dragdrop.js"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:45:35.541165Z"
+   checksum="7d7b1fc58236f17167b14d10c9009193"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="41"
+   name="controls.js"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:45:35.541165Z"
+   checksum="b15d7a73fdf2a4e88fe2a99c10156f9f"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,11 @@
+#!/usr/local/bin/ruby
+require File.dirname(__FILE__) + '/../config/environment'
+
+require "crawler"
+
+FeedCrawler.logger = Logger.new(STDERR)
+FeedCrawler.logger.level = Logger::WARN
+
+#puts "Running..."
+FeedCrawler.refresh_all
+#puts "Done"

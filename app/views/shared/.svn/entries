@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="76"
+   name=""
+   committed-date="2006-02-10T18:41:28.530246Z"
+   url="http://wush.net/svn/rails_planet/trunk/app/views/shared"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="76"
+   name="about.rhtml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T18:41:28.530246Z"
+   checksum="43021502f1b5586af33defc0ecba5aa4"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="76"
+   name="subscribe.rhtml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T18:41:28.530246Z"
+   checksum="32c312774a750ff6e9295731f885fcc3"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="76"
+   name="nav.rhtml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T18:41:28.530246Z"
+   checksum="0086a9e3a85849ac3128fb91d8eb69ff"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="76"
+   name="search.rhtml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T18:41:28.530246Z"
+   checksum="a34ba56664bcde77395e0f6c5107d38d"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="76"
+   name="feeds.rhtml"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T18:41:28.530246Z"
+   checksum="639618854ad5943d4cb697f13eecb347"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+</wc-entries>

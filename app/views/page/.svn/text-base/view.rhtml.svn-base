@@ -1,0 +1,2 @@
+<h3><%=h @page.title -%></h3>
+<%= textilize(@page.content) -%>

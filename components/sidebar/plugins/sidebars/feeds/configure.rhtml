@@ -1,0 +1,11 @@
+<%= form_tag({},{:id => 'configure_'+@sidebar.id.to_s, :class=>'configblock'}) %>
+  <label>Title</label><br/>
+  <input class="text" type="text" name="configure[title]" value="<%=h @sidebar.staged_config['title'] %>"/><br/>
+  <input type="checkbox" id="configure_<%= @sidebar.id.to_s %>_articles" name="configure[all]" <% if @sidebar.staged_config['all'] %>checked="checked"<% end %>/>
+  <label for="configure_<%= @sidebar.id.to_s %>_articles">Don't show unpuslihed feeds</label><br/>
+<%= end_form_tag %>
+
+<%= observe_form "configure_"+@sidebar.id.to_s, 
+    :url => { :action => "save_config", :id=>@sidebar.id},
+    :with => 'value'
+ %>

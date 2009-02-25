@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="72"
+   name=""
+   committed-date="2006-02-07T15:05:04.129159Z"
+   url="http://wush.net/svn/rails_planet/trunk/test/unit"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="1"
+   name="user_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="47d117cf5de1d066317b7c3b38da43c6"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="68"
+   name="settings_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2006-02-07T15:03:42.655850Z"
+   checksum="20fc60f3d49dbc8407f8ae9ebb82d0d7"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="69"
+   name="theme_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2006-02-07T15:04:13.444553Z"
+   checksum="2d5088c3ca5c35818c1ae904935fce9d"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="1"
+   name="feed_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="c87f17bff3d4834c33ee0a874ee09d34"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="1"
+   name="post_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="23662e452825948c95c895f8a2e7c70e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="29"
+   name="notify_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2005-10-19T13:19:50.792109Z"
+   checksum="03bcd6cb410ae2f15457a61488f7186c"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="70"
+   name="tag_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2006-02-07T15:04:32.140135Z"
+   checksum="ba9afa5cbbc523ac8139d93b7989daf5"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   committed-rev="72"
+   name="page_test.rb"
+   text-time="2006-02-12T14:39:12.000000Z"
+   committed-date="2006-02-07T15:05:04.129159Z"
+   checksum="7433a602fac34dc137206277b0d48e69"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+</wc-entries>

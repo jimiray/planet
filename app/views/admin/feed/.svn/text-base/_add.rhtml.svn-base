@@ -1,0 +1,14 @@
+<div class="form">
+  <%= start_form_tag :action=>"create" %>
+  <h3>Add A Feed</h3>
+  <div class="form_container">
+    <dl>
+      <dt>Feed URL:</dt>
+      <dd><%= text_field "feed", "url" %></dd>
+    </dl>
+    <div class="operations">
+      <%= submit_tag "Add Feed" %> or <%= link_to_function "Cancel", "new Effect.BlindUp('add')" %>
+    </div>
+  </div>
+  <%= end_form_tag %>
+</div>

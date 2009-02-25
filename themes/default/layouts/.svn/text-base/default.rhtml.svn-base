@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+   <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+		<title><%=h config_value(:planet_name) %></title>   
+		<%= stylesheet_link_tag "styles" %>
+<%= theme_stylesheet_link_tag 'default' %>
+		<%= javascript_include_tag :defaults %>
+		<link rel="Start" title="Home" href="/" />
+		<%= auto_discovery_link_tag(:rss, {:controller=>"xml", :action=>"rss"}, {:title=>"#{config_value(:planet_name)} RSS" }) %>
+		<%= auto_discovery_link_tag(:atom, {:controller=>"xml", :action=>"atom"}, {:title=>"#{config_value(:planet_name)} ATOM"}) %>    
+	</head>
+	<body>
+	  <div id="header">
+	    <img src="/images/rails_logo_remix.gif" />
+	    <h1><%= link_to config_value(:planet_name), :controller=>"show", :action=>"index" %></h1>
+      <%= render "shared/nav" -%>
+	  </div>
+	  <div id="sidebar">
+      <%= render_sidebars %>
+	  </div>
+	  <div id="main">
+	    <%= @content_for_layout %>
+	  </div>
+	  <div id="footer">
+	    <%=h config_value(:footer) %>
+	  </div>
+	</body>
+</html>
+

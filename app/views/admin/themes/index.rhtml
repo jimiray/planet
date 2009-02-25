@@ -1,0 +1,15 @@
+<% @page_heading = "Themes" %>
+<% for theme in @themes %>
+  <div class="theme" style="border: 1px solid #ccc; background: #ddd; margin-bottom: 5px; padding: 5px;">
+  <div class="preview">
+  <img src="<%= url_for :action => 'preview', :theme => theme.name %>"/>
+  </div>
+  <%= textilize(theme.description) %>
+  <% if config_value(:theme) == theme.name -%>
+  <em>(Active theme)</em>
+  <% else -%>
+  <%= link_to "Activate", :action => 'switchto', :theme => theme.name %>
+  <% end -%>
+  <br style="clear: both;">
+  </div>
+<% end %>

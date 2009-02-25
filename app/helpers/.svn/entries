@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="87"
+   name=""
+   committed-date="2006-02-12T14:40:54.058725Z"
+   url="http://wush.net/svn/rails_planet/trunk/app/helpers"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="55"
+   name="tags_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T14:57:24.656582Z"
+   checksum="a2472538161d5dbe2e9fda9e63d96ee8"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="75"
+   name="show_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T16:04:14.721899Z"
+   checksum="94260b5c29727bb1ef71ca8fe945dc8f"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="58"
+   name="xml_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T14:58:13.603996Z"
+   checksum="ee56705b9c9bcb42579225339a2e33de"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="86"
+   name="application_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-12T14:40:08.080371Z"
+   checksum="9875a07eb76d50667b5d96deb4fa301b"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="1"
+   name="feed_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="c28e84d6d42dc4e813c95a2bf3dd6af3"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="1"
+   name="newaccount_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="62935767396572584229e67093bdc4ec"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   name="admin"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="account_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:02:15.014836Z"
+   checksum="1dd9501228ffeaea300a3cc83a77ee64"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="54"
+   name="page_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T14:56:49.523033Z"
+   checksum="7bba429cc3c41b99a8842cc0bb7bd4d8"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+</wc-entries>

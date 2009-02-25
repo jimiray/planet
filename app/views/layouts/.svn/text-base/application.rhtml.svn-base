@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+   <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+		<title><%= CONFIG['planetname'] %></title>   
+		<%= stylesheet_link_tag "styles" %>
+		<link rel="Start" title="Home" href="/" />
+		<%= auto_discovery_link_tag(:rss, {:controller=>"xml", :action=>"rss"}, {:title=>"#{CONFIG['planetname']} RSS" }) %>
+		<%= auto_discovery_link_tag(:atom, {:controller=>"xml", :action=>"atom"}, {:title=>"#{CONFIG['planetname']} ATOM"}) %>    
+	</head>
+	<body>
+	  <div id="header">
+	    <img src="/images/rails_logo_remix.gif" />
+	    <h1><%= link_to CONFIG['planetname'], :controller=>"show", :action=>"index" %></h1>
+	    <ul id="nav">
+	      <li><a href="http://www.rubyonrails.com/">About</a></li>
+	      <li><a href="http://documentation.rubyonrails.com/">Documentation</a></li>
+	      <li><a href="http://wiki.rubyonrails.com/rails">Community</a></li>
+	      <li><a href="http://dev.rubyonrails.com/">Source</a></li>
+	    </ul>
+	  </div>
+	    <div id="sidebar">
+		  <h3>Search</h3>
+		  <form action="/show/search" type="GET">
+		  <input type="text" size="15" name="q"/>
+		  </form>
+		  (word|+word|-word)<br/>
+		    <h3>Subscribe</h3>
+		    <%= link_to "RSS", :controller=>"xml", :action=>"rss" %><br/>
+		    <%= link_to "ATOM", :controller=>"xml", :action=>"atom" %><br/>
+		    <%= link_to "OPML", :controller=>"xml", :action=>"opml" %>
+	      <h3>Feeds</h3>
+        <%= render_component :controller=>"feed", :action=>"list" %>
+		  <h3>About</h3>
+		  <p>Original code provided by <a href="http://blog.leetsoft.com">Tobias Lütke</a>.  Modified by
+		  <a href="mailto:jim@mosaicglobe.com">Jim Ray</a>.</p>
+		  <p>Hosting provided by <a href="http://www.mosaicglobe.com">MosaicGlobe</a></p>
+	    </div>
+	    <div id="main">
+	      <%= @content_for_layout %>
+	    </div>
+	  <div id="footer">
+	    <%= CONFIG['footer'] %>
+	  </div>
+	</body>
+</html>
+

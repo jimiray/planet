@@ -1,0 +1,47 @@
+body {
+  background-color: #fff;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+#loginform {
+  margin: 0px auto;
+  width: 400px;
+  border: 1px solid #859AA8;
+}
+
+#loginform h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #859AA8;
+  margin: 0px;
+  padding: 5px;
+}
+
+#loginform .formcontainer {
+  padding: 20px;
+}
+#loginform dl {
+  
+}
+
+#loginform dt {
+  float: left;
+	margin: 0 5px 0 0;
+	padding: 0;
+	width: 100px;
+	font-weight: normal;
+	color: #444;
+	text-align: right;
+}
+
+#loginform dd {
+  margin: 0 0 .5em;
+	padding: 0;
+}
+
+#loginform div.operations {
+  width: 200px;
+  text-align: right;
+}

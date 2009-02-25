@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="47"
+   name=""
+   committed-date="2006-02-07T14:49:17.356335Z"
+   url="http://wush.net/svn/rails_planet/trunk/vendor/plugins/theme_support/generators/theme"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="47"
+   name="USAGE"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="f76c4cfda7a6366a873cd1e4d6497acd"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="47"
+   name="theme_generator.rb"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="83ec41d7c4aef51c7d529c1f34b7f1d9"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   name="templates"
+   kind="dir"/>
+</wc-entries>

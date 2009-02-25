@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="89"
+   name=""
+   committed-date="2006-02-12T14:41:26.264508Z"
+   url="http://wush.net/svn/rails_planet/trunk/public"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="1"
+   name="dispatch.cgi"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="dcdc68a6a6c68aad31d0acd93e8b02ce"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="dispatch.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="dcdc68a6a6c68aad31d0acd93e8b02ce"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   name="_doc"
+   kind="dir"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="33"
+   name="dispatch.fcgi"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-19T13:28:00.974956Z"
+   checksum="aeefa1552a4af651eadd16f4e0bb1323"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="42"
+   name="robots.txt"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:46:29.240506Z"
+   checksum="a9d8217ec04c304aba7926ae1f066973"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="500.html"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="8cd49fcfdb23ece0afb07ad7f2625246"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   name="cgi-bin"
+   kind="dir"/>
+<entry
+   name="javascripts"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="404.html"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="1248392955936f5d9142da8f66c5b46b"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name=".htaccess"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="8457451dbbd2934d6948c991e38594bb"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   name="stylesheets"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="favicon.ico"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+</wc-entries>

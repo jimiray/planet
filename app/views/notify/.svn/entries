@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="22"
+   name=""
+   committed-date="2005-10-06T13:34:38.949783Z"
+   url="http://wush.net/svn/rails_planet/trunk/app/views/notify"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="22"
+   name="suggestion.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2005-10-06T13:34:38.949783Z"
+   checksum="451a100dc80af866a38bcf87979cacd0"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+</wc-entries>

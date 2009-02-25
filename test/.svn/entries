@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="87"
+   name=""
+   committed-date="2006-02-12T14:40:54.058725Z"
+   url="http://wush.net/svn/rails_planet/trunk/test"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   name="unit"
+   kind="dir"/>
+<entry
+   committed-rev="71"
+   name="test_helper.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:04:45.168118Z"
+   checksum="fc4d849e28f089141debb18b22058277"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:12.000000Z"/>
+<entry
+   name="functional"
+   kind="dir"/>
+<entry
+   name="fixtures"
+   kind="dir"/>
+<entry
+   name="mocks"
+   kind="dir"/>
+</wc-entries>

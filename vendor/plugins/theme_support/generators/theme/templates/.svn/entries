@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="47"
+   name=""
+   committed-date="2006-02-07T14:49:17.356335Z"
+   url="http://wush.net/svn/rails_planet/trunk/vendor/plugins/theme_support/generators/theme/templates"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="47"
+   name="layout.rhtml"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="f80f4da0fc5a154ecdaaedd1e3cd66f3"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="47"
+   name="layout.liquid"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="672e1b23e4f4159322106eaab76fd701"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="47"
+   name="preview.png"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="0905cd1462b596537827738a52b4092d"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="47"
+   name="theme.css"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="9c7a842bd31bf31222e1cb0de7f63c62"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="47"
+   name="about.markdown"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-07T14:49:17.356335Z"
+   checksum="ca767d2c1e77e5736200076b604d21ca"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+</wc-entries>

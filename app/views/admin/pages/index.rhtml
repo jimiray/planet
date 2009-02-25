@@ -1,0 +1,14 @@
+<% @page_heading = "Pages" %>
+<% content_for('tasks') do %>
+  <li><%= link_to "Add A Page", :action=>"create" %>
+<% end %>
+<table class="list">
+  <tr>
+    <th>Location</th>
+    <th>Title</th>
+    <th>Created</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </tr>
+  <%= render :partial=>"page", :collection=>@pages %>
+</table>

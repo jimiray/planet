@@ -1,0 +1,15 @@
+<% @page_heading = "Creating a new user" %>
+<% content_for('tasks') do %>
+  <li><%= link_to "Cancel and Go Back", :action=>"index" %>
+<% end %>
+
+<div class="form">
+  <div class="form_container">
+<%= start_form_tag :action=>"create" %>
+  <%= render(:partial=>"form") %>
+<div class="operations">
+<input type="submit" value="Add User"/>
+</div>
+<%= end_form_tag %>
+  </div>
+</div>

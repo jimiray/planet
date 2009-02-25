@@ -1,0 +1,24 @@
+<% @page_heading = "Pages" %>
+<% content_for('tasks') do %>
+  <li><%= link_to "Cancel and Go Back", :action=>"index" %>
+<% end %>
+
+<%= error_messages_for "page" %>
+<div class="form">
+  <h3>Editing Page - <%= @page.title %></h3>
+  <%= start_form_tag :action=>"edit", :id=>@page.id %>
+  <div class="form_container">
+    <dl>
+      <dt>Location:</dt>
+      <dd>/pages/<%= text_field "page", "location" %></dd>
+      <dt>Title:</dt>
+      <dd><%= text_field "page", "title" %></dd>
+      <dt>Content:</dt>
+      <dd><%= text_area "page", "content", :cols=>80, :rows=>20,  :style=>"font-size: 12px; font-family: Monaco, monspace" %></dd>
+    <div class="operations">
+      <input type="submit" value="Create Page"/>
+    </div>
+  </div>
+  <%= end_form_tag %>
+</div>
+

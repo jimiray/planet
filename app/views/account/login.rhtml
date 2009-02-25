@@ -1,0 +1,22 @@
+<%= start_form_tag :action=> "login" %>
+
+<div title="Account login" id="loginform" class="form">
+    <h3>Please login</h3>
+    <div class="formcontainer">
+    <% if @message %>
+      <div id="message"><%= @message %></div>
+    <% end %>
+    <dl>
+      <dt><label for="user_login">Login:</label></dt>
+      <dd><input type="text" name="user_login" id="user_login" size="30" value=""/></dd>
+      <dt><label for="user_password">Password:</label></dt>
+      <dd><input type="password" name="user_password" id="user_password" size="30"/></dd>
+    </dl>
+    <div class="operations">
+    <input type="submit" name="login" value="Login &#187;" class="primary" />
+    </div>
+    </div>
+</div>
+
+<%= end_form_tag %>
+

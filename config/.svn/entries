@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="95"
+   name=""
+   committed-date="2006-02-12T14:46:19.022699Z"
+   url="http://wush.net/svn/rails_planet/trunk/config"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="38"
+   name="database.yml.tmpl"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-20T18:29:22.338032Z"
+   checksum="09d75f0b78b6336e19b8c9ee86d9c24a"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="38"
+   name="config.yml.tmpl"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-20T18:29:22.338032Z"
+   checksum="4eee4522d86c81d00d186e0f4b50afc7"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="1"
+   name="routes.rb.orig"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="6657eb5a5dec614abaa7878ed524f51b"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="30"
+   name="routes.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2005-10-19T13:20:26.762198Z"
+   checksum="afcee252e21cf4bd7a17ced81cd3365e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="45"
+   name="boot.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:53.575914Z"
+   checksum="6dfb2484bbb80e77501b09c80467cf94"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="95"
+   name="environment.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-12T14:46:19.022699Z"
+   checksum="7fff670c55e62d8057a37b8d2881d778"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   name="environments"
+   kind="dir"/>
+</wc-entries>

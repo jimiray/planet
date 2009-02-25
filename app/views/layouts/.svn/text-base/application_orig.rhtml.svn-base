@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+   <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />    
+		<title>Planet rails</title>   
+		<link rel="stylesheet" href="/stylesheets/base.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/stylesheets/more.css" type="text/css" media="screen" />
+		<link rel="Start" title="Home" href="/" />
+		<link rel="service.feed" type="application/xml" href="<%= url_for :controller=>"xml", :action => "atom" %>" title="<%= CONFIG['planetname'] + " atom 0.3" %>" />   
+		<link rel="service.feed" type="application/xml" href="<%= url_for :controller=>"xml", :action => "rss" %>" title="<%= CONFIG['planetname'] + " RSS 2.0" %>" />   
+		<meta name="copyright" content="Creative commons" />
+	</head>
+	<body>
+		<div id="container">			
+		  <div id="header">			
+		  	<div id="logo">
+		  		<a href="http://web.rubyonrails.com" title="Ruby on Rails"><img src="http://web.rubyonrails.com/images/rails_logo.gif" alt="Rails" height="140" /></a>
+		  	</div>
+		  	<h1>Planet Ruby on Rails</h1>
+		  	<!-- <ul id="navMain">
+		  		<li class="first-child"><a href="http://web.rubyonrails.com" title="About" class="about">About</a></li>
+		  		<li><a class="weblog" href="http://weblog.rubyonrails.com" title="Weblog">Latest</a></li>
+		  		<li><a class="community" href="http://www.rubyonrails.com:2750/rails/show/HomePage" title="Community">Community</a></li>
+		  		<li><a class="manuals" href="http://manuals.rubyonrails.com/" title="Manuals">Manuals</a></li>
+		  		<li><a class="api" href="http://api.rubyonrails.com/" title="References">API</a></li>
+		  		<li><a class="dev" href="http://dev.rubyonrails.com/trac.cgi/timeline?from=12%2F21%2F04&daysback=10&ticket=on&changeset=on&milestone=on" title="dev.rubyonrails.com">Source</a></li>
+		  	</ul> -->
+
+		  </div> <!-- #header -->
+				
+			<div id="sidebar">
+			  <h2>Rails Links</h2>
+			  <a href="">Wiki</a><br/>
+			  <a href="">Documentation</a><br/>
+			  <a href="">Source</a><br/>
+			  <%= link_to "home", :controller => "show", :action => "index" %><br/>
+			  <h2>Feeds</h2>
+			  <% for feed in @feeds %>
+			  <small>(<%= link_to "+", :controller => "show", :action => "feed", :id => feed.id %>)</small>&nbsp;<%= link_to feed.name, feed.blog_url %><br/>
+			  <% end %>
+			  <br/>
+			  <h2>search...</h2>
+			  <form action="/show/search" type="GET">
+			  <input type="text" size="15" name="q"/>
+			  </form>
+			  (word|+word|-word)<br/>			  
+			  <br/>
+			  
+        <h2>Suggess A Feed</h2>
+        <%= link_to "Suggest A Feed", :controller=>"feed", :action=>"suggest" %><br/><br/>
+        <h2>Subscribe</h2>
+			  <%= link_to "rss 2.0", :controller=>"xml", :action => "rss"  %> :: <%= link_to "atom", :controller=>"xml", :action => "atom"  %>
+			  
+			</div> <!-- #sidebar -->
+					
+			<div id="content">	
+			  <%= @content_for_layout %>
+			</div>
+					
+		</div> <!-- #container -->
+	</body>   
+</html>

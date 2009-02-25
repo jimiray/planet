@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="87"
+   name=""
+   committed-date="2006-02-12T14:40:54.058725Z"
+   url="http://wush.net/svn/rails_planet/trunk/app/models"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="80"
+   name="setting.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-12T14:34:32.843484Z"
+   checksum="425483bfc64af8751e0d4b803076a3de"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="1"
+   name="user.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-04T13:29:04.283690Z"
+   checksum="d03491ed75e662edff7f7dfbf658849d"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="80"
+   name="config_manager.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-12T14:34:32.843484Z"
+   checksum="f0a9ea4aaf94608fc37a08b38b81f2ed"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="66"
+   name="settings.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T15:01:25.201945Z"
+   checksum="532d790e16bf9192020ca9b794f640e4"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="79"
+   name="theme.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-12T14:33:09.553040Z"
+   checksum="3100bffe4d97505afa6d11f2f6663b28"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="52"
+   name="feed.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T14:54:15.590686Z"
+   checksum="c625e92e7558d0db21bc29596227e5d8"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="73"
+   name="post.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-10T16:02:36.719141Z"
+   checksum="7a65207a5a0183ed8e9f0ab237244e09"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="80"
+   name="configuration.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-12T14:34:32.843484Z"
+   checksum="dbd0b8d61831da8ea7713a09ac03774a"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="22"
+   name="notify.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2005-10-06T13:34:38.949783Z"
+   checksum="a8fb28b1ce65b3c5a3b720b426f5a7cf"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="87"
+   name="sidebar.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-12T14:40:54.058725Z"
+   checksum="47edba9acdccfdd523abc75cf375b979"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="55"
+   name="tag.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T14:57:24.656582Z"
+   checksum="979641e968e3cf45313cb627a920afb7"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+<entry
+   committed-rev="53"
+   name="page.rb"
+   text-time="2006-02-12T14:39:13.000000Z"
+   committed-date="2006-02-07T14:56:33.512270Z"
+   checksum="287a4f7584d38a5130fcdabc35accfd2"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:13.000000Z"/>
+</wc-entries>

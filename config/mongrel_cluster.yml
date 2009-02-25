@@ -1,0 +1,9 @@
+--- 
+user: planet
+cwd: .
+port: "8000"
+environment: production
+group: planet
+address: 127.0.0.1
+pid_file: log/mongrel.pid
+servers: 3

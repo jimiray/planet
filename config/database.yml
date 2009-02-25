@@ -1,0 +1,20 @@
+development:
+  adapter: mysql
+  database: planet_production
+  host: localhost
+  username: planet
+  password: 9Q6573?k
+
+test:
+  adapter: mysql
+  database: rails_test
+  host: localhost
+  username: root
+  password:
+
+production:
+  adapter: mysql
+  database: planet_production
+  host: localhost
+  username: planet
+  password: 9Q6573?k

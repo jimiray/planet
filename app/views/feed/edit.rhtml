@@ -1,0 +1,7 @@
+<h1>Editing feed</h1>
+
+<%= error_messages_for 'feed' %>
+<%= form 'feed', :action => 'update' %>
+
+<%= link_to 'Show', :action => 'show', :id => @feed.id %> |
+<%= link_to 'Back', :action => 'list' %>

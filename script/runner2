@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require File.dirname(__FILE__) + '/../config/boot'
+#require 'commands/runner'
+
+class SessionCleaner
+  def self.remove_stale_sessions
+    CGI::Session::ActiveRecordStore::Session.
+      destroy_all( ['updated_at <?', 10.minutes.ago] ) 
+  end
+end
+
+require 'commands/runner'

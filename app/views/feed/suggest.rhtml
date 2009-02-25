@@ -1,0 +1,11 @@
+<h1>Suggest a Feed</h1>
+<%= error_messages_for "feed" %>
+<%= start_form_tag :action=>"suggest" %>
+<dl class="suggest">
+  <dt><label for="feed_url">Feed Url:</label></dt>
+  <dd><%= text_field "feed", "url", "size"=>"30" %></dd>
+</dl>
+<div class="operations">
+<input type="submit" value="Suggest"/>
+</div>
+<%= end_form_tag %>

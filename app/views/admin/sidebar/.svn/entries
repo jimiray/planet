@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="85"
+   name=""
+   committed-date="2006-02-12T14:39:53.461103Z"
+   url="http://wush.net/svn/rails_planet/trunk/app/views/admin/sidebar"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="85"
+   name="_active.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:39:53.461103Z"
+   checksum="0726e808a9c93fbe0a870919e931d613"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="85"
+   name="_actives.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:39:53.461103Z"
+   checksum="6634acf209d859a55b781c7db93b412b"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="85"
+   name="_available.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:39:53.461103Z"
+   checksum="751a75248e2f7c2a10a2c876849f3ba0"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="85"
+   name="_availables.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:39:53.461103Z"
+   checksum="85971f16488f89e94bd6db30736f9965"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="85"
+   name="_publish.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:39:53.461103Z"
+   checksum="662429dd6872b0b20f3b3828e77effd1"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+<entry
+   committed-rev="85"
+   name="index.rhtml"
+   text-time="2006-02-12T14:39:14.000000Z"
+   committed-date="2006-02-12T14:39:53.461103Z"
+   checksum="e5aec14d4d057003a9ca6848be43e073"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:14.000000Z"/>
+</wc-entries>

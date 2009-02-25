@@ -1,0 +1,60 @@
+== What is it?
+
+== Requirements
+
+Currently you need all of those things to get typo to run:
+
+ * Ruby -v of 1.8.2 (25-05-2004) or 1.8.3 
+ * Rails 1.0.0 or greater
+ * A database.  RailsPlanet supports MySQL, PostgreSQL, and SQLite.
+ * Ruby drivers for your database.
+ * The following gems
+     * FeedTools > 0.2.0
+     * RedCloth > 3.0.4
+ * For best performance, you should have a web server running either
+   Apache or Lighttpd along with FastCGI, although these aren't
+   strictly required--you can use Ruby's built-in web server for
+   low-volume testing.
+
+== Installation
+
+Unpack the tgz or zip in some directory.
+
+Decide which database to use. We support Sqlite, MySQL, and Postgres,
+but Sqlite doesn't have full support for database migrations in Rails
+0.13.1.
+
+  * Create a database for railsplanet. You can find schemas in the db/ folder. 
+  * Create config/database.yml using database.yml.example to reflect your
+    newly created database configuration  
+  * Create config/config.yml using config.yml.example to reflect the
+    configuration needed for you new planet site.
+  * Run script/server -e production and see if it works  
+  * Point your browser to http://your.domain.com:3000/ and follow the
+    install process
+
+== Usage
+
+RailsPlanet admin is located at: http://your.domain.com/admin.  You can use
+this for configuration support, adding and deleting feeds, adding and deleting
+pages, user creation and deletion.
+
+== Theme Support
+
+Theme support is provided by the theme plugin from Matt McCray.  Themes are
+located in the themes directory.  A default theme has been included in this 
+installation.  You can create new themes by using the command:
+
+ruby script/generate theme <theme_name>
+
+For more information on using themes please refer to the theme plugin README file at:
+
+http://mattmccray.com/svn/theme_support/trunk/theme_support/README
+
+== Pages
+
+RailsPlanet pages support is provided by using simple Textile markdown.  
+
+
+
+

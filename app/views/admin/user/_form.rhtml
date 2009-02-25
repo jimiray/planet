@@ -1,0 +1,12 @@
+<dl>
+  <dt><label for="feed_name">Name:</label></dt>
+  <dd><%= text_field "user", "name", "size"=>"30" %></dd>
+  <dt><label for="feed_author">Email:</label></dt>
+  <dd><%= text_field "user", "email", "size"=>"30" %></dd>
+  <dt><label for="user_login">Login:</label></dt>
+  <dd><%= text_field "user", "login" %></dd>
+  <dt><label for="feed_url">Password:</label></dt>
+  <dd><%= password_field "user", "password" %></dd>
+  <dt><label for="feed_blog_url">Confirm Password:</label></dt>
+  <dd><%= password_field "user", "password_confirmation" %></dd>
+</dl>

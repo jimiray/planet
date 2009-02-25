@@ -1,0 +1,10 @@
+<h3>Search</h3>
+<form action="/show/search" id="sform" type="GET">
+<input type="text" size="15" id="q" name="q"/>
+</form>
+(word|+word|-word)<br/>
+<%= observe_field "q", :frequency => 1,
+    :url => { :controller => "show", :action => "live_search" },
+    :update => "search-results",
+    :with => "'q=' + escape($F('q'))" -%>
+<div id="search-results"></div>

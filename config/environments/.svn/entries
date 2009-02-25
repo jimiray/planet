@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="43"
+   name=""
+   committed-date="2006-02-07T14:47:02.586005Z"
+   url="http://wush.net/svn/rails_planet/trunk/config/environments"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="43"
+   name="test.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:02.586005Z"
+   checksum="b553140af60cd6cafda689f4c40becbc"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="43"
+   name="development.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:02.586005Z"
+   checksum="431c17d115f92ed60e319f41237f2c93"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+<entry
+   committed-rev="43"
+   name="production.rb"
+   text-time="2006-02-12T14:39:16.000000Z"
+   committed-date="2006-02-07T14:47:02.586005Z"
+   checksum="dd355d04f28d0e39910db9262fbe8a1c"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:16.000000Z"/>
+</wc-entries>

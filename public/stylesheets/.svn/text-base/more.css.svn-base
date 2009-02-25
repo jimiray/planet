@@ -1,0 +1,13 @@
+.left-floaty {
+  padding: 3px 15px;
+  float:left;
+}
+
+.right-floaty {
+  float:right;
+  padding: 3px 15px;
+}
+
+.blogentry a:link, .blogentry a:visited {
+
+}

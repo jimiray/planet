@@ -1,0 +1,5 @@
+<div id="cloud" style="margin-top: 10px;">
+<% tag_cloud(@tags, %w(small medium large x-large)) do |tag, font_size| %>
+ <%= link_to(h("#{tag}"), {:controller=>"tags", :action=>"view", :id=>tag}, {:style=>"font-size: #{font_size}"}) -%>
+<% end %>
+</div>

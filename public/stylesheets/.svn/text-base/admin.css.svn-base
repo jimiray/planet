@@ -1,0 +1,433 @@
+body {
+  font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  margin: 0px;
+  background: #fff;
+}
+
+div#wrapper {
+  margin: 0px auto;
+  text-align: left;
+  background-color: #fff;
+  width: 800px;
+  border-left: 0px solid #D7DFE4;
+  border-right: 0px solid #D7DFE4;
+}
+
+div#header {
+  color: #fff;
+  background: #859AA8;
+  margin: 0px;
+  padding: 0 5px 0 10px;
+  height: 30px;
+  border-bottom: 4px solid #D7DFE4;
+  /* border-top: 10px solid #D7DFE4; */
+}
+
+#header p {
+  margin: 0; 
+  padding: 6px 0 0 0;
+}
+
+#header a:link, #header a:visited {
+        color: #fff;
+}
+
+#content {
+ background: #fff;
+ margin: 10px 5px 10px 5px;
+ padding: 0px;
+ }
+
+div#footer {
+  text-align: center;
+  clear: both;
+  font-size: 10px;
+}
+
+#main {
+  float: right;
+  width: 600px;
+  border: 1px solid #000;
+}
+
+/* Top Navigation */
+div#info {
+  float: right;
+  margin-top: -2px;
+  padding: 0px 4px 0px 0px;
+}
+
+div#info ul#nav2 {
+  list-style-type: none;
+}
+
+div#info li {
+  display: inline;
+  padding: 0px 5px 0px 5px;
+  font-size: 14px;
+}
+
+/* Tab Navigation */
+#tabs {
+  padding: 0px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+#tabs ul{
+  float: left;
+  padding: 0 20px;
+  width: 760px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 11px;
+  line-height: normal;
+  border-bottom: 4px solid #859AA8;
+}
+
+
+#tabs li {
+        float: left;
+        margin-right: 3px;
+        padding: 0;
+        list-style: none;
+        background: #95BC6F;
+        border: 0px solid #859AA8;
+}
+
+ #tabs li a {
+        float: left;
+        margin: 0;
+        padding: 6px 12px;
+        text-decoration: none;
+        color: #fff;
+        background: #95BC6F;
+}
+
+#tabs li a:hover {
+  text-decoration: underline;
+}
+
+#tabs li a.active {
+   background: #859AA8;
+   color: #fff;
+}
+
+#tabs li a.active:hover {
+  color: #fff;
+  background: #859AA8;
+  border-color: #637987;
+}
+
+
+/* Headers */
+#header h1 {
+  text-transform: lowercase;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0px;
+  border-bottom: 3px solid #ccc;
+}
+
+
+/* TASKS LINKS */
+#tasks {
+  padding: 0px 0px 5px 0px;
+  margin: 5px 0 0 0;
+  /* float: left; */
+}
+
+#tasks ul {
+  list-style: none;
+  margin: 0px 0px 0px 5px;
+  padding: 0;
+}
+
+#tasks ul li {
+  display: inline;
+  line-height: normal;
+}
+
+#tasks li a {
+  padding: 1px 5px 1px 5px;
+  text-decoration: none;
+  
+}
+
+#tasks li a:hover {
+  background: #4A611C;
+  color: #fff;
+}
+   
+#tasks h3 {
+  font: normal 120%/normal "Trebuchet MS", Arial, Verdana;
+  background: transparent;
+  margin: 0 0 5px 0;
+  padding: 0;
+  color: #4A611C;
+}
+   
+
+/* Users */
+
+   div.user {
+     border: 1px solid #9cabba;
+     border-top: 1px solid #bacddf;
+     border-left: 1px solid #bacddf;
+     background: #fff;
+     width: 145px;
+     float: left;
+     margin: 10px;
+   }
+
+   .user h4 {
+     margin: 0 0 0px 0;
+     background: #ccc;
+     padding: 4px;
+   }
+
+   .user h4 a {
+     color: #333;
+     background: #ccc;
+     padding-left: 5px;
+     display: block;
+   }
+
+   .user h4 a:hover {
+     background: #D7DFE4;
+   }
+
+   .user p {
+     margin: 0;
+     padding: 5px;
+   }
+   
+   
+/* Form */
+.form {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0 0 0 0px;
+}
+
+.form h3 {
+	margin: 0;
+	padding: 4px 0;
+	font-size: 12px;
+	color: #369;
+	border-bottom: 1px solid #29c;
+}
+
+.form div {
+  padding: 5px;
+}
+
+.form .form_container {
+  paddding: 0 0 0 10px;
+  background-color: #efefef;
+}
+
+.form .form_container .block {
+  background-color: #efefef;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+}
+
+.form dl {
+  margin: 0;
+  padding: 0;
+}
+
+.form dt {
+  float: left;
+	margin: 0 5px 0 0;
+	padding: 0;
+	width: 130px;
+	font-weight: bold;
+	color: #444;
+	text-align: right;
+}
+
+.form dd {
+	margin: 0 0 .5em;
+	padding: 0;
+	}
+.form input {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+	
+.operations {
+  text-align: right;
+}
+
+table.list {
+  width: 98%;
+  clear: left;
+}
+
+table.list th {
+  text-align: left;
+  border-bottom: 3px solid #ccc;
+}
+
+table.list td.created {
+  width: 130px;
+  text-align: left;
+}
+table.list td.edit {
+  width: 30px;
+  text-align: center;
+}
+
+table.list td.validate {
+	width: 40px;
+	text-align: center;
+}
+
+table.list td.delete {
+  width: 40px;
+  text-align: center;
+}
+
+table.list td.status {
+  width: 38px;
+  text-align: center;
+}
+
+table.list td.location {
+	width: 150px;
+}
+
+table.list td.title {
+	width: 200px;
+}
+/* Flash */
+#flash {
+    background: #CBE4C3;
+    color: #0C2504;
+    padding: 5px;
+    border-top: 1px solid #2E9410;
+    border-bottom: 1px solid #2E9410;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Themes */
+.preview {
+  width: 205px;
+  height: 155px;
+  overflow: hidden;
+  margin: 2px;
+  float: right;
+}
+
+/* Errors */
+.errorExplanation {
+  border: 2px solid #b00;
+}
+
+.errorExplanation h2 {
+  background-color: #b00;
+  color: white;
+  margin: 0px;
+  padding: 5px;
+}
+
+.errorExplanation p {
+  padding: 5px;
+}
+
+.fieldWithErrors {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.fieldWithErrors input, .fieldWithErrors select {
+    background-color: #ffdfdf;
+}
+
+ #sidebar-config {
+  /* Safari Fix */
+   border-top: 1px solid #fff;
+ }
+
+ #sidebar-config p {
+   margin: 0;
+   padding-left: 5px;
+ }
+
+ #available {
+   float: left;
+   width: 350px;
+ }
+
+ #active, #cnt-active {
+   width: 350px;
+   min-height: 200px;
+ }
+
+ #cnt-active {
+   margin-left: 370px;
+   border: 1px solid #333;
+   background: #c8d9ed;
+ }
+
+ #available , #active {
+   background: #c8d9ed;
+ }
+
+ #available h3, #active h3, #cnt-active h3 {
+   background: #859aa8;
+   color: #333;
+   margin: 0 0 10px 0;
+   padding: 2px 5px;
+ }
+
+ .dropbox {
+   width: 270px;
+ }
+
+ .handle {
+   cursor: move;
+   font-size: 130%;
+   font-weight: normal;
+   padding-left: 5px;
+   margin: 0;
+ }
+
+ .dragitem, .dropitem {
+   margin: 0 0 5px 12px;
+ }
+
+ .dragitem {
+   border: 1px solid #9cabba;
+   border-top: 1px solid #bacddf;
+   border-left: 1px solid #bacddf;
+   background: #fff;
+   width: 270px;
+ }
+
+.handle {
+  background: #f7f7f7;
+}
+
+.target {
+  background: #cde0f3;
+  margin: 5px;
+  padding: 5px;
+}

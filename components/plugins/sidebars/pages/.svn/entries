@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="83"
+   name=""
+   committed-date="2006-02-12T14:37:35.381491Z"
+   url="http://wush.net/svn/rails_planet/trunk/components/plugins/sidebars/pages"
+   last-author="jim"
+   kind="dir"
+   uuid="1e53dcfd-4102-0410-a8dd-be1508c4e439"
+   revision="95"/>
+<entry
+   committed-rev="83"
+   name="content.rhtml"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-12T14:37:35.381491Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+<entry
+   committed-rev="83"
+   name="configure.rhtml"
+   text-time="2006-02-12T14:39:15.000000Z"
+   committed-date="2006-02-12T14:37:35.381491Z"
+   checksum="69a97acc94625d1ff1615823728b2eec"
+   last-author="jim"
+   kind="file"
+   prop-time="2006-02-12T14:39:15.000000Z"/>
+</wc-entries>

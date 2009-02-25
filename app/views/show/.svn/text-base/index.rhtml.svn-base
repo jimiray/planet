@@ -1,0 +1,7 @@
+<% if @posts.empty?  -%>
+<p>No posts to show....</p>
+<% else %>
+  <%= render :partial=>"post", :collection=>@posts %>
+<% end -%>
+<%= prev_page(@pages) if @pages.current.previous %>
+<%= next_page(@pages) if @pages.current.next  %>
