@@ -1,7 +1,7 @@
 class Post < ActiveRecord::Base
   
   belongs_to :feed
-  acts_as_taggable
+  acts_as_taggable :join_table => 'tags_posts'
   
   def self.find_with_feed(limit = 20, offset = 0)
     find(:all, :limit=>limit, :offset=>offset, :order=>"posts.created_at DESC", :include=>"feed")

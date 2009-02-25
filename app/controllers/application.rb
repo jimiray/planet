@@ -5,16 +5,14 @@ class ApplicationController < ActionController::Base
   include LoginSystem  
 
   before_filter :reload_settings
-  layout "default"
-  theme :get_theme
     
   private
   
   def reload_settings
-    unless @request.instance_variable_get(:@config_reloaded)
-      @request.instance_variable_set(:@config_reloaded, true)
-      config.reload
-    end
+    #unless @request.instance_variable_get(:@config_reloaded)
+    #  @request.instance_variable_set(:@config_reloaded, true)
+    #  config.reload
+    #end
   end
   
   def get_theme
