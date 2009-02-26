@@ -1,7 +1,0 @@
-Feed Suggestion
-
-The following feed has been submitted for approval:
-
-Name: <%= @feed.name %>
-URL:  <%= @feed.blog_url %>
-Feed URL: <%= @feed.url %>

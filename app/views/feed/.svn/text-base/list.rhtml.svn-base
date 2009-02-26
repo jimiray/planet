@@ -1,3 +1,0 @@
-<% for feed in @feeds %>
-<small>(<%= link_to "+", :controller => "show", :action => "feed", :id => feed.id %>)</small>&nbsp;<%= link_to feed.title, feed.link %><br/>
-<% end %>

@@ -1,4 +1,0 @@
-<% for page in @pages %>
-  <input type="checkbox" id="configure_<%= @sidebar.id.to_s %>_<%= page.location %>" name="configure[<%= page.location %>]" <% if @sidebar.staged_config[page.location] %>checked="checked"<% end %>/>
-  <label for="configure_<%= @sidebar.id.to_s %>_<%= page.location %>"><%= page.title %></label><br/>
-<% end %>

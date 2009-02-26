@@ -1,7 +1,0 @@
-<div class="user">
-  <h4><%= link_to h("#{user.name}"), {:action => "view", :id => user.id} %></h4>
-  <p>
-  <%= user.email %><br/>
-  </p>
-  <p><%= link_to 'Edit', :action => 'edit', :id => user  %><strong> |</strong> <%= link_to 'Delete', {:action => 'delete', :id => user}, :confirm=>"Are you sure?" %></p>
-</div>

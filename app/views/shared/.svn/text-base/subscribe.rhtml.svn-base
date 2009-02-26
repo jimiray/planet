@@ -1,4 +1,0 @@
-<h3>Subscribe</h3>
-<%= link_to "RSS", :controller=>"xml", :action=>"rss" %><br/>
-<%= link_to "ATOM", :controller=>"xml", :action=>"atom" %><br/>
-<%= link_to "OPML", :controller=>"xml", :action=>"opml" %>

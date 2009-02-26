@@ -1,0 +1,1280 @@
+Access denied for user 'planet'@'localhost' (using password: YES)
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `real_connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:152:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `mysql_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `send'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `connection_without_query_cache='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/query_cache.rb:54:in `connection='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:230:in `retrieve_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:763:in `columns'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:771:in `columns_hash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:105:in `setup_sessid_compatibility!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:79:in `find_by_session_id'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:867:in `silence'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:120:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:1058:in `assign_shortcuts_without_flash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/flash.rb:140:in `assign_shortcuts'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:429:in `process_without_filters'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+Access denied for user 'planet'@'localhost' (using password: YES)
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `real_connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:152:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `mysql_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `send'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `connection_without_query_cache='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/query_cache.rb:54:in `connection='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:230:in `retrieve_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:763:in `columns'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:771:in `columns_hash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:105:in `setup_sessid_compatibility!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:79:in `find_by_session_id'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:867:in `silence'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:120:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:1058:in `assign_shortcuts_without_flash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/flash.rb:140:in `assign_shortcuts'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:429:in `process_without_filters'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+Access denied for user 'planet'@'localhost' (using password: YES)
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `real_connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:152:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `mysql_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `send'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `connection_without_query_cache='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/query_cache.rb:54:in `connection='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:230:in `retrieve_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:763:in `columns'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:771:in `columns_hash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:105:in `setup_sessid_compatibility!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:79:in `find_by_session_id'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:867:in `silence'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:120:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:1058:in `assign_shortcuts_without_flash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/flash.rb:140:in `assign_shortcuts'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:429:in `process_without_filters'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+Access denied for user 'planet'@'localhost' (using password: YES)
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `real_connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:152:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `mysql_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `send'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `connection_without_query_cache='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/query_cache.rb:54:in `connection='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:230:in `retrieve_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:763:in `columns'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:771:in `columns_hash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:105:in `setup_sessid_compatibility!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:79:in `find_by_session_id'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:867:in `silence'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:120:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:1058:in `assign_shortcuts_without_flash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/flash.rb:140:in `assign_shortcuts'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:429:in `process_without_filters'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+Access denied for user 'planet'@'localhost' (using password: YES)
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `real_connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:389:in `connect'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:152:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:82:in `mysql_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `send'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:262:in `connection_without_query_cache='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/query_cache.rb:54:in `connection='
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:230:in `retrieve_connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:763:in `columns'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:771:in `columns_hash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:105:in `setup_sessid_compatibility!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:79:in `find_by_session_id'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/base.rb:867:in `silence'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session/active_record_store.rb:283:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/cgi/session.rb:273:in `initialize'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `new'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:136:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:168:in `stale_session_check!'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/cgi_process.rb:120:in `session'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:1058:in `assign_shortcuts_without_flash'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/flash.rb:140:in `assign_shortcuts'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:429:in `process_without_filters'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+/Users/jim/Projects/open_source/planet/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:33:32) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_get instead of @request.instance_variable_get. Args: [:@config_reloaded]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:12)
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_set instead of @request.instance_variable_set. Args: [:@config_reloaded, true]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:13)
+  [4;36;1mSetting Load (0.000430)[0m   [0;1mSELECT * FROM settings [0m
+  [4;35;1mSetting Columns (0.002788)[0m   [0mSHOW FIELDS FROM settings[0m
+  [4;36;1mSetting Load (0.000312)[0m   [0;1mSELECT * FROM settings [0m
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+
+
+NameError (undefined local variable or method `acts_as_taggable' for Post:Class):
+    /vendor/rails/activerecord/lib/active_record/base.rb:1238:in `method_missing'
+    /app/models/post.rb:4
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:203:in `load_without_new_constant_marking'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:203:in `load_file'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:202:in `load_file'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:94:in `require_or_load'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:248:in `load_missing_constant'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:452:in `const_missing'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:464:in `const_missing'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/inflector.rb:250:in `constantize'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/core_ext/string/inflections.rb:148:in `constantize'
+    /vendor/rails/actionpack/lib/action_controller/pagination.rb:201:in `paginator_and_collection_for'
+    /vendor/rails/actionpack/lib/action_controller/pagination.rb:132:in `paginate_without_deprecation'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/deprecation.rb:94:in `paginate'
+    /app/controllers/show_controller.rb:7:in `index'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1101:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:696:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:34:18) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_get instead of @request.instance_variable_get. Args: [:@config_reloaded]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:12)
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_set instead of @request.instance_variable_set. Args: [:@config_reloaded, true]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:13)
+  [4;36;1mSetting Load (0.000302)[0m   [0;1mSELECT * FROM settings [0m
+  [4;35;1mSetting Columns (0.007403)[0m   [0mSHOW FIELDS FROM settings[0m
+  [4;36;1mSetting Load (0.001309)[0m   [0;1mSELECT * FROM settings [0m
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+  [4;35;1mPost Columns (0.006859)[0m   [0mSHOW FIELDS FROM posts[0m
+  [4;36;1mSQL (0.007818)[0m   [0;1mSELECT count(*) AS count_all FROM posts [0m
+  [4;35;1mPost Load (0.023060)[0m   [0mSELECT * FROM posts ORDER BY created_at DESC LIMIT 0, 20[0m
+Rendering  within layouts/application
+Rendering show/index
+  [4;36;1mJoin Table Columns (0.000000)[0m   [0;1mMysql::Error: Table 'planet_development.posts_tags' doesn't exist: SHOW FIELDS FROM posts_tags[0m
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:34:19) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_get instead of @request.instance_variable_get. Args: [:@config_reloaded]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:12)
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_set instead of @request.instance_variable_set. Args: [:@config_reloaded, true]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:13)
+  [4;36;1mSetting Load (0.000229)[0m   [0;1mSELECT * FROM settings [0m
+
+
+ActionView::TemplateError (Mysql::Error: Table 'planet_development.posts_tags' doesn't exist: SHOW FIELDS FROM posts_tags) on line #6 of app/views/show/_post.rhtml:
+3: 	<h2 class="title"><a href="<%= post.url %>" rel="bookmark" title="Permanent Link: <%= post.title %>"><%= post.title  %></a></h2>
+4: 	<p class="metadata">Posted by <%= h post.author || post.feed.author %> <%= distance_of_time_in_words_to_now post.created_at %> ago</p>
+5: 	<%= CGI::unescapeHTML(post.body) %>
+6: 	<% if post.tags.size != 0 %>
+7: 	<div style="text-align: right;">Tags: <%= post.tags.collect {|t| link_to t.name, :controller=>"tags", :action=>"view", :id=>t.name}.join(", ") -%></div>
+8: 	<% end %>
+9: </div>
+
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract_adapter.rb:128:in `log'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:243:in `execute'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:348:in `columns'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb:165:in `finding_with_ambigious_select?'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb:55:in `find'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/association_collection.rb:163:in `find_target'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/association_proxy.rb:131:in `load_target'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb:100:in `count_records'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/association_collection.rb:111:in `size'
+    #{RAILS_ROOT}/app/views/show/_post.rhtml:6:in `_run_rhtml_47app47views47show47_post46rhtml'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `compile_and_render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:301:in `render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:275:in `render'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:59:in `render_partial'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:307:in `realtime'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:58:in `render_partial'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:73:in `render_partial_collection'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:524:in `each_with_index'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:71:in `each'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:71:in `each_with_index'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:71:in `render_partial_collection'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:285:in `render'
+    #{RAILS_ROOT}/app/views/show/index.rhtml:4:in `_run_rhtml_47app47views47show47index46rhtml'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `compile_and_render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:301:in `render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:812:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:717:in `render_with_no_layout'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:696:in `call_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    #{RAILS_ROOT}/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+  [4;35;1mSetting Columns (0.055159)[0m   [0mSHOW FIELDS FROM settings[0m
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+  [4;36;1mSetting Load (0.079002)[0m   [0;1mSELECT * FROM settings [0m
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+  [4;35;1mPost Columns (0.021646)[0m   [0mSHOW FIELDS FROM posts[0m
+  [4;36;1mSQL (0.116980)[0m   [0;1mSELECT count(*) AS count_all FROM posts [0m
+  [4;35;1mPost Load (0.000742)[0m   [0mSELECT * FROM posts ORDER BY created_at DESC LIMIT 0, 20[0m
+Rendering  within layouts/application
+Rendering show/index
+  [4;36;1mJoin Table Columns (0.000000)[0m   [0;1mMysql::Error: Table 'planet_development.posts_tags' doesn't exist: SHOW FIELDS FROM posts_tags[0m
+
+
+ActionView::TemplateError (Mysql::Error: Table 'planet_development.posts_tags' doesn't exist: SHOW FIELDS FROM posts_tags) on line #6 of app/views/show/_post.rhtml:
+3: 	<h2 class="title"><a href="<%= post.url %>" rel="bookmark" title="Permanent Link: <%= post.title %>"><%= post.title  %></a></h2>
+4: 	<p class="metadata">Posted by <%= h post.author || post.feed.author %> <%= distance_of_time_in_words_to_now post.created_at %> ago</p>
+5: 	<%= CGI::unescapeHTML(post.body) %>
+6: 	<% if post.tags.size != 0 %>
+7: 	<div style="text-align: right;">Tags: <%= post.tags.collect {|t| link_to t.name, :controller=>"tags", :action=>"view", :id=>t.name}.join(", ") -%></div>
+8: 	<% end %>
+9: </div>
+
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract_adapter.rb:128:in `log'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:243:in `execute'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:348:in `columns'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb:165:in `finding_with_ambigious_select?'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb:55:in `find'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/association_collection.rb:163:in `find_target'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/association_proxy.rb:131:in `load_target'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/has_and_belongs_to_many_association.rb:100:in `count_records'
+    #{RAILS_ROOT}/vendor/rails/activerecord/lib/active_record/associations/association_collection.rb:111:in `size'
+    #{RAILS_ROOT}/app/views/show/_post.rhtml:6:in `_run_rhtml_47app47views47show47_post46rhtml'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `compile_and_render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:301:in `render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:275:in `render'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:59:in `render_partial'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:307:in `realtime'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:58:in `render_partial'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:73:in `render_partial_collection'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:524:in `each_with_index'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:71:in `each'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:71:in `each_with_index'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/partials.rb:71:in `render_partial_collection'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:285:in `render'
+    #{RAILS_ROOT}/app/views/show/index.rhtml:4:in `_run_rhtml_47app47views47show47index46rhtml'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `compile_and_render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:301:in `render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:812:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:717:in `render_with_no_layout'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/layout.rb:247:in `render_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:696:in `call_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    #{RAILS_ROOT}/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:34:42) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_get instead of @request.instance_variable_get. Args: [:@config_reloaded]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:12)
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_set instead of @request.instance_variable_set. Args: [:@config_reloaded, true]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:13)
+
+
+ArgumentError (A copy of ConfigManager has been removed from the module tree but is still active!):
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:237:in `load_missing_constant'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:468:in `const_missing'
+    /app/models/config_manager.rb:13:in `reload'
+    /app/controllers/application.rb:14:in `reload_settings'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `send'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `call'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:442:in `run'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:714:in `run_before_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:694:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:34:44) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_get instead of @request.instance_variable_get. Args: [:@config_reloaded]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:12)
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_set instead of @request.instance_variable_set. Args: [:@config_reloaded, true]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:13)
+
+
+ArgumentError (A copy of ConfigManager has been removed from the module tree but is still active!):
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:237:in `load_missing_constant'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:468:in `const_missing'
+    /app/models/config_manager.rb:13:in `reload'
+    /app/controllers/application.rb:14:in `reload_settings'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `send'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `call'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:442:in `run'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:714:in `run_before_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:694:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:34:47) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_get instead of @request.instance_variable_get. Args: [:@config_reloaded]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:12)
+DEPRECATION WARNING: @request is deprecated! Call request.instance_variable_set instead of @request.instance_variable_set. Args: [:@config_reloaded, true]  See http://www.rubyonrails.org/deprecation for details. (called from reload_settings at /Users/jim/Projects/open_source/planet/app/controllers/application.rb:13)
+
+
+ArgumentError (A copy of ConfigManager has been removed from the module tree but is still active!):
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:237:in `load_missing_constant'
+    /vendor/rails/activerecord/lib/../../activesupport/lib/active_support/dependencies.rb:468:in `const_missing'
+    /app/models/config_manager.rb:13:in `reload'
+    /app/controllers/application.rb:14:in `reload_settings'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `send'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:469:in `call'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:442:in `run'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:714:in `run_before_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:694:in `call_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    /vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    /vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    /vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:50:01) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+  [4;36;1mPost Columns (0.001701)[0m   [0;1mSHOW FIELDS FROM posts[0m
+  [4;35;1mSQL (0.000233)[0m   [0mSELECT count(*) AS count_all FROM posts [0m
+  [4;36;1mPost Load (0.000927)[0m   [0;1mSELECT * FROM posts ORDER BY created_at DESC LIMIT 0, 20[0m
+Rendering  within layouts/application
+Rendering show/index
+  [4;35;1mJoin Table Columns (0.001598)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (1.000510)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14503 ) [0m
+  [4;35;1mTag Columns (0.001505)[0m   [0mSHOW FIELDS FROM tags[0m
+Rendered show/_post (1.00923)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/associations.rb:572)
+  [4;36;1mFeed Columns (0.001851)[0m   [0;1mSHOW FIELDS FROM feeds[0m
+  [4;35;1mFeed Load (0.001884)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 177) [0m
+  [4;36;1mJoin Table Columns (0.001127)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.011851)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14502 ) [0m
+Rendered show/_post (0.02530)
+  [4;36;1mFeed Load (0.001015)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.005373)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011406)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14501 ) [0m
+Rendered show/_post (0.01979)
+  [4;35;1mJoin Table Columns (0.039472)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.483613)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14500 ) [0m
+Rendered show/_post (0.52572)
+  [4;35;1mFeed Load (0.000312)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 177) [0m
+  [4;36;1mJoin Table Columns (0.001304)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.010961)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14499 ) [0m
+Rendered show/_post (0.01415)
+  [4;36;1mFeed Load (0.000827)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001228)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.010724)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14498 ) [0m
+Rendered show/_post (0.01440)
+  [4;35;1mJoin Table Columns (0.018521)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011416)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14496 ) [0m
+Rendered show/_post (0.03165)
+  [4;35;1mJoin Table Columns (0.002380)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.044813)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14497 ) [0m
+Rendered show/_post (0.04841)
+  [4;35;1mJoin Table Columns (0.037361)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.187109)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14495 ) [0m
+Rendered show/_post (0.22727)
+  [4;35;1mFeed Load (0.001213)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.001374)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.015436)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14494 ) [0m
+Rendered show/_post (0.01981)
+Rendered show/_post (0.00015)
+  [4;36;1mFeed Load (0.001199)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.293345)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011855)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14492 ) [0m
+Rendered show/_post (0.30850)
+  [4;35;1mJoin Table Columns (0.004749)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.014061)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14491 ) [0m
+Rendered show/_post (0.02058)
+  [4;35;1mFeed Load (0.000745)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.042225)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.041452)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14490 ) [0m
+Rendered show/_post (0.08621)
+  [4;36;1mJoin Table Columns (0.087814)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.034348)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14489 ) [0m
+Rendered show/_post (0.12382)
+  [4;36;1mFeed Load (0.001098)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001312)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.010928)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14488 ) [0m
+Rendered show/_post (0.01513)
+  [4;35;1mJoin Table Columns (0.007750)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.009201)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14487 ) [0m
+Rendered show/_post (0.14158)
+  [4;35;1mFeed Load (0.000724)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.021347)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.111507)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14486 ) [0m
+Rendered show/_post (0.13512)
+  [4;36;1mJoin Table Columns (0.084938)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.019631)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14485 ) [0m
+Rendered show/_post (0.10639)
+  [4;36;1mFeed Load (0.001839)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 4) [0m
+  [4;35;1mJoin Table Columns (0.001326)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.010014)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14484 ) [0m
+Rendered show/_post (0.01485)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: [:q]  See http://www.rubyonrails.org/deprecation for details. (called from next_page at /Users/jim/Projects/open_source/planet/app/helpers/show_helper.rb:17)
+
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::CONFIG) on line #5 of app/views/layouts/application.rhtml:
+2: <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+3:    <head>
+4: 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+5: 		<title><%= CONFIG['planetname'] %></title>   
+6: 		<%= stylesheet_link_tag "styles" %>
+7: 		<link rel="Start" title="Home" href="/" />
+8: 		<%= auto_discovery_link_tag(:rss, {:controller=>"xml", :action=>"rss"}, {:title=>"#{CONFIG['planetname']} RSS" }) %>
+
+    #{RAILS_ROOT}/vendor/rails/activesupport/lib/active_support/dependencies.rb:263:in `load_missing_constant'
+    #{RAILS_ROOT}/vendor/rails/activesupport/lib/active_support/dependencies.rb:452:in `const_missing'
+    #{RAILS_ROOT}/app/views/layouts/application.rhtml:5:in `_run_rhtml_47app47views47layouts47application46rhtml'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `compile_and_render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:301:in `render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/layout.rb:254:in `render_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:696:in `call_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    #{RAILS_ROOT}/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:50:57) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+  [4;35;1mPost Columns (0.001849)[0m   [0mSHOW FIELDS FROM posts[0m
+  [4;36;1mSQL (0.001968)[0m   [0;1mSELECT count(*) AS count_all FROM posts [0m
+  [4;35;1mPost Load (0.001038)[0m   [0mSELECT * FROM posts ORDER BY created_at DESC LIMIT 0, 20[0m
+Rendering  within layouts/application
+Rendering show/index
+  [4;36;1mJoin Table Columns (0.001208)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.901220)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14503 ) [0m
+  [4;36;1mTag Columns (0.001651)[0m   [0;1mSHOW FIELDS FROM tags[0m
+Rendered show/_post (0.90727)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/associations.rb:572)
+  [4;35;1mFeed Columns (0.001735)[0m   [0mSHOW FIELDS FROM feeds[0m
+  [4;36;1mFeed Load (0.001846)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 177) [0m
+  [4;35;1mJoin Table Columns (0.001439)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.010215)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14502 ) [0m
+Rendered show/_post (0.02170)
+  [4;35;1mFeed Load (0.000834)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.008998)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.012333)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14501 ) [0m
+Rendered show/_post (0.02397)
+  [4;36;1mJoin Table Columns (0.079440)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.321048)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14500 ) [0m
+Rendered show/_post (0.40265)
+  [4;36;1mFeed Load (0.000293)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 177) [0m
+  [4;35;1mJoin Table Columns (0.001948)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.012127)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14499 ) [0m
+Rendered show/_post (0.01579)
+  [4;35;1mFeed Load (0.001167)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.001200)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.010551)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14498 ) [0m
+Rendered show/_post (0.01468)
+  [4;36;1mJoin Table Columns (0.327548)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.010501)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14496 ) [0m
+Rendered show/_post (0.33952)
+  [4;36;1mJoin Table Columns (0.003999)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.015201)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14497 ) [0m
+Rendered show/_post (0.02047)
+  [4;36;1mJoin Table Columns (0.019147)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.205030)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14495 ) [0m
+Rendered show/_post (0.22639)
+  [4;36;1mFeed Load (0.000886)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.003283)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.014220)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14494 ) [0m
+Rendered show/_post (0.01980)
+Rendered show/_post (0.00010)
+  [4;35;1mFeed Load (0.001110)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.001721)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.011379)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14492 ) [0m
+Rendered show/_post (0.01574)
+  [4;36;1mJoin Table Columns (0.009502)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.012676)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14491 ) [0m
+Rendered show/_post (0.02412)
+  [4;36;1mFeed Load (0.000771)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.034603)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.075355)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14490 ) [0m
+Rendered show/_post (0.11239)
+  [4;35;1mJoin Table Columns (0.056581)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.117079)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14489 ) [0m
+Rendered show/_post (0.17524)
+  [4;35;1mFeed Load (0.000935)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.035734)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.105120)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14488 ) [0m
+Rendered show/_post (0.14363)
+  [4;36;1mJoin Table Columns (0.026922)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.038135)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14487 ) [0m
+Rendered show/_post (0.06688)
+  [4;36;1mFeed Load (0.000895)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.045622)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011712)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14486 ) [0m
+Rendered show/_post (0.05995)
+  [4;35;1mJoin Table Columns (0.001290)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.023986)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14485 ) [0m
+Rendered show/_post (0.02682)
+  [4;35;1mFeed Load (0.001302)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 4) [0m
+  [4;36;1mJoin Table Columns (0.013471)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.069823)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14484 ) [0m
+Rendered show/_post (0.08627)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: [:q]  See http://www.rubyonrails.org/deprecation for details. (called from next_page at /Users/jim/Projects/open_source/planet/app/helpers/show_helper.rb:17)
+
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::CONFIG) on line #5 of app/views/layouts/application.rhtml:
+2: <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+3:    <head>
+4: 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+5: 		<title><%= CONFIG['planetname'] %></title>   
+6: 		<%= stylesheet_link_tag "styles" %>
+7: 		<link rel="Start" title="Home" href="/" />
+8: 		<%= auto_discovery_link_tag(:rss, {:controller=>"xml", :action=>"rss"}, {:title=>"#{CONFIG['planetname']} RSS" }) %>
+
+    #{RAILS_ROOT}/vendor/rails/activesupport/lib/active_support/dependencies.rb:263:in `load_missing_constant'
+    #{RAILS_ROOT}/vendor/rails/activesupport/lib/active_support/dependencies.rb:452:in `const_missing'
+    #{RAILS_ROOT}/app/views/layouts/application.rhtml:5:in `_run_rhtml_47app47views47layouts47application46rhtml'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:325:in `compile_and_render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:301:in `render_template'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render_file'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/layout.rb:254:in `render_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:50:in `render'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:696:in `call_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/rescue.rb:83:in `passenger_orig_perform_action'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:53:in `perform_action'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `send'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:435:in `process_without_filters'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/session_management.rb:114:in `process'
+    #{RAILS_ROOT}/vendor/rails/actionpack/lib/action_controller/base.rb:334:in `process'
+    #{RAILS_ROOT}/vendor/rails/railties/lib/dispatcher.rb:41:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/request_handler.rb:38:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_request_handler.rb:163:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:307:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:276:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:274:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:165:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/utils.rb:163:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:273:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:135:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:112:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/railz/application_spawner.rb:177:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:218:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:122:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/spawn_manager.rb:247:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:317:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/lib/passenger/abstract_server.rb:168:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.0.3/bin/passenger-spawn-server:46
+
+
+Rendering /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:51:16) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+  [4;36;1mPost Columns (0.002467)[0m   [0;1mSHOW FIELDS FROM posts[0m
+  [4;35;1mSQL (0.000219)[0m   [0mSELECT count(*) AS count_all FROM posts [0m
+  [4;36;1mPost Load (0.001113)[0m   [0;1mSELECT * FROM posts ORDER BY created_at DESC LIMIT 0, 20[0m
+Rendering  within layouts/application
+Rendering show/index
+  [4;35;1mJoin Table Columns (0.001597)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.537868)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14503 ) [0m
+  [4;35;1mTag Columns (0.001438)[0m   [0mSHOW FIELDS FROM tags[0m
+Rendered show/_post (0.54741)
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/associations.rb:572)
+  [4;36;1mFeed Columns (0.001950)[0m   [0;1mSHOW FIELDS FROM feeds[0m
+  [4;35;1mFeed Load (0.016461)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 177) [0m
+  [4;36;1mJoin Table Columns (0.001187)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.010462)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14502 ) [0m
+Rendered show/_post (0.03867)
+  [4;36;1mFeed Load (0.000920)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.020042)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.083162)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14501 ) [0m
+Rendered show/_post (0.10589)
+  [4;35;1mJoin Table Columns (0.041186)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.254661)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14500 ) [0m
+Rendered show/_post (0.29843)
+  [4;35;1mFeed Load (0.000328)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 177) [0m
+  [4;36;1mJoin Table Columns (0.001497)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.012480)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14499 ) [0m
+Rendered show/_post (0.01593)
+  [4;36;1mFeed Load (0.001218)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001382)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.010062)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14498 ) [0m
+Rendered show/_post (0.01515)
+  [4;35;1mJoin Table Columns (0.118619)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.012096)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14496 ) [0m
+Rendered show/_post (0.13244)
+  [4;35;1mJoin Table Columns (0.031332)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.055532)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14497 ) [0m
+Rendered show/_post (0.08841)
+  [4;35;1mJoin Table Columns (0.054076)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.161465)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14495 ) [0m
+Rendered show/_post (0.21849)
+  [4;35;1mFeed Load (0.000992)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.001344)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.010432)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14494 ) [0m
+Rendered show/_post (0.01451)
+Rendered show/_post (0.00011)
+  [4;36;1mFeed Load (0.001003)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001123)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.009853)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14492 ) [0m
+Rendered show/_post (0.01347)
+  [4;35;1mJoin Table Columns (0.061293)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011168)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14491 ) [0m
+Rendered show/_post (0.07426)
+  [4;35;1mFeed Load (0.000786)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.027813)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.081173)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14490 ) [0m
+Rendered show/_post (0.11158)
+  [4;36;1mJoin Table Columns (0.167806)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.172965)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14489 ) [0m
+Rendered show/_post (0.34230)
+  [4;36;1mFeed Load (0.000906)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001404)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.010462)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14488 ) [0m
+Rendered show/_post (0.01448)
+  [4;35;1mJoin Table Columns (0.184914)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.124757)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14487 ) [0m
+Rendered show/_post (0.31134)
+  [4;35;1mFeed Load (0.000836)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.061225)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.090798)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14486 ) [0m
+Rendered show/_post (0.15443)
+  [4;36;1mJoin Table Columns (0.022005)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.012997)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14485 ) [0m
+Rendered show/_post (0.03664)
+  [4;36;1mFeed Load (0.001451)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 4) [0m
+  [4;35;1mJoin Table Columns (0.001212)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011411)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14484 ) [0m
+Rendered show/_post (0.01555)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: [:q]  See http://www.rubyonrails.org/deprecation for details. (called from next_page at /Users/jim/Projects/open_source/planet/app/helpers/show_helper.rb:17)
+Start rendering component ({:action=>"list", :controller=>"feed"}): 
+
+
+Processing FeedController#list (for 127.0.0.1 at 2009-02-25 16:51:18) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"list", "id"=>nil, "controller"=>"feed"}
+  [4;35;1mFeed Load (0.041402)[0m   [0mSELECT * FROM feeds WHERE (approved=1) ORDER BY title[0m
+DEPRECATION WARNING: You called render('feed/list'), which is a deprecated API call. Instead you use render :file => feed/list. Calling render with just a string will be removed from Rails 2.0.  See http://www.rubyonrails.org/deprecation for details. (called from render_without_layout at /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:869)
+Rendering feed/list
+Completed in 0.05662 (17 reqs/sec) | DB: 2.54455 (4493%) | 200 OK [http://planet.local/]
+
+
+End of component rendering
+Completed in 2.63706 (0 reqs/sec) | Rendering: 2.62255 (99%) | DB: 0.00380 (0%) | 200 OK [http://planet.local/]
+
+
+Processing ShowController#index (for 127.0.0.1 at 2009-02-25 16:51:30) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"index", "controller"=>"show", "page"=>"2"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["page"]  See http://www.rubyonrails.org/deprecation for details. (called from calc_offset at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:35)
+DEPRECATION WARNING: paginate is deprecated and will be removed from Rails 2.0 (Pagination is moving to a plugin in Rails 2.0: script/plugin install svn://errtheblog.com/svn/plugins/classic_pagination)  See http://www.rubyonrails.org/deprecation for details. (called from index at /Users/jim/Projects/open_source/planet/app/controllers/show_controller.rb:7)
+  [4;36;1mPost Columns (0.008693)[0m   [0;1mSHOW FIELDS FROM posts[0m
+  [4;35;1mSQL (0.000232)[0m   [0mSELECT count(*) AS count_all FROM posts [0m
+  [4;36;1mPost Load (0.001267)[0m   [0;1mSELECT * FROM posts ORDER BY created_at DESC LIMIT 20, 20[0m
+Rendering  within layouts/application
+Rendering show/index
+DEPRECATION WARNING: The :dependent => true option is deprecated and will be removed from Rails 2.0.  Please use :dependent => :destroy instead.  See http://www.rubyonrails.org/deprecation for details.  See http://www.rubyonrails.org/deprecation for details. (called from has_many at /Users/jim/Projects/open_source/planet/vendor/rails/activerecord/lib/active_record/associations.rb:572)
+  [4;35;1mFeed Columns (0.001643)[0m   [0mSHOW FIELDS FROM feeds[0m
+  [4;36;1mFeed Load (0.001056)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.007552)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.546363)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14483 ) [0m
+Rendered show/_post (0.56475)
+  [4;35;1mJoin Table Columns (0.003822)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.267632)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14482 ) [0m
+  [4;35;1mTag Columns (0.002166)[0m   [0mSHOW FIELDS FROM tags[0m
+Rendered show/_post (0.27622)
+  [4;36;1mFeed Load (0.004167)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001124)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011629)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14481 ) [0m
+Rendered show/_post (0.01903)
+  [4;35;1mFeed Load (0.000594)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 133) [0m
+  [4;36;1mJoin Table Columns (0.015551)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.010833)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14480 ) [0m
+Rendered show/_post (0.02834)
+  [4;36;1mJoin Table Columns (0.071604)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.622614)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14479 ) [0m
+Rendered show/_post (0.69626)
+  [4;36;1mJoin Table Columns (0.005675)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.014229)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 13784 ) [0m
+Rendered show/_post (0.02155)
+  [4;36;1mFeed Load (0.000755)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.069219)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.108161)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14478 ) [0m
+Rendered show/_post (0.17962)
+  [4;35;1mFeed Load (0.001366)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 41) [0m
+  [4;36;1mJoin Table Columns (0.028765)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.026913)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14477 ) [0m
+Rendered show/_post (0.05873)
+Rendered show/_post (0.00010)
+  [4;36;1mFeed Load (0.001076)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.001408)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.011274)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14475 ) [0m
+Rendered show/_post (0.01516)
+  [4;35;1mFeed Load (0.000788)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.011192)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.011982)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14474 ) [0m
+Rendered show/_post (0.02572)
+  [4;36;1mJoin Table Columns (0.015027)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.066668)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14473 ) [0m
+Rendered show/_post (0.08378)
+  [4;36;1mJoin Table Columns (0.049311)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.037799)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14472 ) [0m
+Rendered show/_post (0.08962)
+  [4;36;1mJoin Table Columns (0.075526)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.097465)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14471 ) [0m
+Rendered show/_post (0.17541)
+  [4;36;1mFeed Load (0.000815)[0m   [0;1mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;35;1mJoin Table Columns (0.028832)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.077758)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14470 ) [0m
+Rendered show/_post (0.10902)
+  [4;35;1mJoin Table Columns (0.001580)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.060128)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14469 ) [0m
+Rendered show/_post (0.06287)
+  [4;35;1mJoin Table Columns (0.042272)[0m   [0mSHOW FIELDS FROM tags_posts[0m
+  [4;36;1mTag Load (0.044326)[0m   [0;1mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14468 ) [0m
+Rendered show/_post (0.08776)
+  [4;35;1mFeed Load (0.000794)[0m   [0mSELECT * FROM feeds WHERE (feeds.`id` = 44) [0m
+  [4;36;1mJoin Table Columns (0.158810)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.183925)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14467 ) [0m
+Rendered show/_post (0.34511)
+  [4;36;1mJoin Table Columns (0.054315)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.014118)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14466 ) [0m
+Rendered show/_post (0.07136)
+  [4;36;1mJoin Table Columns (0.001207)[0m   [0;1mSHOW FIELDS FROM tags_posts[0m
+  [4;35;1mTag Load (0.012485)[0m   [0mSELECT * FROM tags INNER JOIN tags_posts ON tags.id = tags_posts.tag_id WHERE (tags_posts.post_id = 14465 ) [0m
+Rendered show/_post (0.01527)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: [:q]  See http://www.rubyonrails.org/deprecation for details. (called from prev_page at /Users/jim/Projects/open_source/planet/app/helpers/show_helper.rb:4)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: [:q]  See http://www.rubyonrails.org/deprecation for details. (called from next_page at /Users/jim/Projects/open_source/planet/app/helpers/show_helper.rb:17)
+Start rendering component ({:action=>"list", :controller=>"feed"}): 
+
+
+Processing FeedController#list (for 127.0.0.1 at 2009-02-25 16:51:33) [GET]
+  Session ID: f0dfb840b8eca3b47f5d168d71e3cedf
+  Parameters: {"action"=>"list", "id"=>nil, "controller"=>"feed"}
+  [4;36;1mFeed Load (0.041867)[0m   [0;1mSELECT * FROM feeds WHERE (approved=1) ORDER BY title[0m
+DEPRECATION WARNING: You called render('feed/list'), which is a deprecated API call. Instead you use render :file => feed/list. Calling render with just a string will be removed from Rails 2.0.  See http://www.rubyonrails.org/deprecation for details. (called from render_without_layout at /Users/jim/Projects/open_source/planet/vendor/rails/actionpack/lib/action_controller/base.rb:869)
+Rendering feed/list
+Completed in 0.05849 (17 reqs/sec) | DB: 2.92618 (5003%) | 200 OK [http://planet.local/?page=2]
+
+
+End of component rendering
+Completed in 3.01576 (0 reqs/sec) | Rendering: 2.99768 (99%) | DB: 0.01019 (0%) | 200 OK [http://planet.local/?page=2]
