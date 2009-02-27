@@ -3,7 +3,7 @@
 
 class Feed < ActiveRecord::Base
   
-  has_many :posts, :dependent => true
+  has_many :posts, :dependent => :delete_all
   
   def find_by_content(title, body)
     posts.find_all(["title=? AND body=?", title, body],nil,"LIMIT 1").first
