@@ -13,11 +13,7 @@
         <div id="info">
           <ul id="nav2">
           <%= tab "Feeds", :controller=>"feed", :action=>"index" %>
-          <%= tab "Pages", :controller=>"pages", :action=>"index" %>
-          <%= tab "Themes", :controller=>"themes", :action=>"index" %>
-          <%= tab "Sidebar", :controller=>"sidebar", :action=>"index" %>
           <%= tab "Users", :controller=>"user", :action=>"index" %>
-          <%= tab "Settings", :controller=>"settings", :action=>"index" %>
           <%= tab "Log Out", :controller=>"/account", :action=>"logout" %>
         </div>
         <h1 id="title">railsplanet - <%=h config_value(:planet_name) %></h1>
