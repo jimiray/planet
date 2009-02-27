@@ -16,13 +16,13 @@
           <%= tab "Users", :controller=>"user", :action=>"index" %>
           <%= tab "Log Out", :controller=>"/account", :action=>"logout" %>
         </div>
-        <h1 id="title">railsplanet - <%=h config_value(:planet_name) %></h1>
+        <h1 id="title">railsplanet - <%=h CONFIG['planet_name'] %></h1>
       </div>
     	<div id="overall">
    	    <!-- Right Content Area -->
         <div id="content"> 
-          <% if @flash[:notice] %>
-    	    <div id="flash"><%= @flash[:notice] %></div>
+          <% if flash[:notice] %>
+    	    <div id="flash"><%= flash[:notice] %></div>
     	    <script type="text/javascript">
             setTimeout((function() { new Effect.Fade('flash') }).bind(this),3000);
           </script>

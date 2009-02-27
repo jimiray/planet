@@ -1,0 +1,29 @@
+<h2>Sign in</h2>
+
+<% form_for :session, :url => session_path do |form| %>
+<div id='loginform'>
+  <h3>Please Login</h3>
+  <dl>
+    <dt><%= form.label :email %></dt>
+    <dd><%= form.text_field :email %></dd>
+    <dt><%= form.label :password %></dt>
+    <dd><%= form.password_field :password %></dd>
+  </dl>
+  <p style='text-align: left; padding-left: 110px;'>
+    <%= form.check_box :remember_me %>
+    <%= form.label :remember_me %>
+  </p>
+  <div class="submit_field" style='text-align: right; padding-right: 20px;'>
+    <%= form.submit "Sign in", :disable_with => "Please wait..." %>
+  </div>
+<% end %>
+
+<ul style='list-style-type: none; margin-left: 4px; padding-left: 4px;'>
+  <li>
+    <%= link_to "Sign up", new_user_path %>
+  </li>
+  <li>
+    <%= link_to "Forgot password?", new_password_path %>
+  </li>
+</ul>
+</div>

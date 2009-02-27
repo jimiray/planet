@@ -15,7 +15,15 @@ Rails::Initializer.run do |config|
 
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
-
+  config.gem 'thoughtbot-shoulda',
+    :lib     => 'shoulda',
+    :source  => "http://gems.github.com", 
+    :version => '>= 2.9.1'
+  config.gem 'thoughtbot-factory_girl',
+    :lib     => 'factory_girl',
+    :source  => "http://gems.github.com", 
+    :version => '>= 1.2.0'
+    
   # Force all environments to use the same logger level 
   # (by default production uses :info, the others :debug)
   # config.log_level = :debug
@@ -23,6 +31,11 @@ Rails::Initializer.run do |config|
   # Use the database for sessions instead of the file system
   # (create the session table with 'rake create_sessions_table')
   config.action_controller.session_store = :active_record_store
+
+  config.action_controller.session = {
+    :session_key => '_planet_session',
+    :secret      => 'b9261ec87843106539efc8a99f580c1ddf13d105a47543ac5bad58601c1953faab98a3b0fdebc87e5be83a6fd74ba5a74881c1e6d1601877e4a45d01f91cbb1d'
+  }
 
   # Enable page/fragment caching by setting a file-based store
   # (remember to create the caching directory and make it readable to the application)
@@ -55,3 +68,5 @@ gem 'feedtools'
 gem 'acts_as_taggable'
 
 CONFIG = YAML::load(File.open("#{RAILS_ROOT}/config/config.yml"))
+HOST="planetrubyonrails.org"
+DO_NOT_REPLY = "donotreply@example.com"
