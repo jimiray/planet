@@ -2,43 +2,35 @@
 # migrations feature of ActiveRecord to incrementally modify your database, and
 # then regenerate this schema definition.
 
-ActiveRecord::Schema.define(:version => 9) do
+ActiveRecord::Schema.define(:version => 10) do
 
   create_table "feeds", :force => true do |t|
-    t.column "title", :string
-    t.column "author", :string
-    t.column "url", :string
-    t.column "link", :string
-    t.column "created_at", :datetime
-    t.column "updated_at", :datetime
-    t.column "approved", :integer, :limit => 4, :default => 0, :null => false
-    t.column "bounces", :integer, :default => 0
-    t.column "feed_data", :text
+    t.column "title",          :string
+    t.column "author",         :string
+    t.column "url",            :string
+    t.column "link",           :string
+    t.column "created_at",     :datetime
+    t.column "updated_at",     :datetime
+    t.column "approved",       :integer,  :limit => 4, :default => 0, :null => false
+    t.column "bounces",        :integer,               :default => 0
+    t.column "feed_data",      :text
     t.column "feed_data_type", :string
-    t.column "http_headers", :text
+    t.column "http_headers",   :text
     t.column "last_retrieved", :datetime
-    t.column "feed_type", :string
+    t.column "feed_type",      :string
   end
 
   add_index "feeds", ["author"], :name => "author"
 
-  create_table "pages", :force => true do |t|
-    t.column "location", :string
-    t.column "title", :string
-    t.column "content", :text
-    t.column "created_at", :datetime
-    t.column "updated_at", :datetime
-  end
-
   create_table "posts", :force => true do |t|
-    t.column "feed_id", :integer
-    t.column "url", :string
-    t.column "title", :string
-    t.column "body", :text
-    t.column "created_at", :datetime
-    t.column "updated_at", :datetime
-    t.column "author", :string
-    t.column "guid", :string
+    t.column "feed_id",     :integer
+    t.column "url",         :string
+    t.column "title",       :string
+    t.column "body",        :text
+    t.column "created_at",  :datetime
+    t.column "updated_at",  :datetime
+    t.column "author",      :string
+    t.column "guid",        :string
     t.column "comment_url", :string
   end
 
@@ -48,24 +40,18 @@ ActiveRecord::Schema.define(:version => 9) do
 
   create_table "sessions", :force => true do |t|
     t.column "session_id", :string
-    t.column "data", :text
+    t.column "data",       :text
     t.column "updated_at", :datetime
   end
 
   add_index "sessions", ["session_id"], :name => "sessions_session_id_index"
 
-  create_table "settings", :force => true do |t|
-    t.column "name", :string
-    t.column "value", :string
-    t.column "position", :integer
-  end
-
   create_table "sidebar_configs", :force => true do |t|
-    t.column "controller", :string
+    t.column "controller",      :string
     t.column "active_position", :integer
-    t.column "active_config", :text
+    t.column "active_config",   :text
     t.column "staged_position", :integer
-    t.column "staged_config", :text
+    t.column "staged_config",   :text
   end
 
   create_table "tags", :force => true do |t|
@@ -73,15 +59,15 @@ ActiveRecord::Schema.define(:version => 9) do
   end
 
   create_table "tags_posts", :id => false, :force => true do |t|
-    t.column "tag_id", :integer
+    t.column "tag_id",  :integer
     t.column "post_id", :integer
   end
 
   create_table "users", :force => true do |t|
-    t.column "login", :string, :limit => 80
+    t.column "login",    :string, :limit => 80
     t.column "password", :string, :limit => 40
-    t.column "name", :string
-    t.column "email", :string
+    t.column "name",     :string
+    t.column "email",    :string
   end
 
 end
