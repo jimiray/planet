@@ -20,7 +20,7 @@
   </td>
   <td class="delete">
   <%= link_to_remote image_tag("delete.png", :border=>0), 
-            :url=>{:action => 'delete', :id => feed.id}, 
+            :url=>{:action => 'destroy', :id => feed.id}, 
             :success=>"new Effect.Fade('feed_#{feed.id}', {duration: 1})",
             :confirm => "Are you sure you want to delete the feed:\n#{feed.title}?", 
             :title=>"Delete" %>

@@ -5,11 +5,11 @@
 
 <div class="form">
   <div class="form_container">
-<% form_for :feed, :url => admin_feed_path(@feed) do |feed| %>
-  <%= render :partial=>"admin/feed/form", :locals => {:feed => feed} %>
-<div class="operations">
-<input type="submit" value="Save"/>
-</div>
+  <% form_for @feed, :url => admin_feed_path(@feed) do |feed| %>
+    <%= render :partial => 'form', :locals => {:feed => feed} %>
+    <div class="operations">
+      <input type="submit" value="Save"/>
+    </div>
   <% end %>
-</div>
+  </div>
 </div>
