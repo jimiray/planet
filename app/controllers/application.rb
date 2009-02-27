@@ -1,11 +1,14 @@
 # The filters added to this controller will be run for all controllers in the application.
 # Likewise will all the methods added be available for all controllers.
 class ApplicationController < ActionController::Base
+  include Clearance::App::Controllers::ApplicationController
 
   include LoginSystem  
 
   before_filter :reload_settings
     
+  protect_from_forgery :secret => '3bf67192881e9595a51a41f657ca7a5e'
+
   private
   
   def reload_settings
