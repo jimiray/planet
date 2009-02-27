@@ -1,7 +1,0 @@
-<tr>
-  <td class="location">/pages/<%= link_to page.location, :controller=>"/page", :action=>"view", :id=>page.location %></td>
-  <td class="title"><%= page.title %></td>
-  <td class="created"><%= distance_of_time_in_words_to_now page.created_at %></td>
-  <td class="edit"><%= link_to image_tag('go.png', :border=>0), :action=>"edit", :id=>page.id %></td>
-  <td class="delete"><%= link_to image_tag('delete.png', :border=>0), :action=>"delete", :id=>page.id %></td>
-</td>
