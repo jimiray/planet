@@ -2,7 +2,7 @@ class FeedController < ApplicationController
 
   def list
     @feeds = Feed.find(:all, :conditions=>"approved=1", :order=>"title")
-    render_without_layout
+    render :layout => false
   end
 
   def suggest 

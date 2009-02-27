@@ -1,10 +1,11 @@
 class ShowController < ApplicationController
   
-  before_filter :calc_offset
+ # before_filter :calc_offset
   #after_filter :colorize_search    
   
   def index
-    @pages, @posts = paginate :post, :per_page=>20, :order_by=>"created_at DESC"
+   # @pages, @posts = paginate :post, :per_page=>20, :order_by=>"created_at DESC"
+   @posts = Post.paginate :page => 1, :per_page => 20, :order => "created_at DESC"
   end
 
   def search
@@ -31,9 +32,9 @@ class ShowController < ApplicationController
   
   private
   
-  def calc_offset
-    @page = 20 * (@params['page'].to_i || 0)
-  end
+  #def calc_offset
+  #  @page = 20 * (@params['page'].to_i || 0)
+  #end
   
   def colorize_search
     return unless @params['q']
