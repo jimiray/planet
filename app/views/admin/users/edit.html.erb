@@ -1,15 +1,15 @@
-<% @page_heading = "Editing user - #{@user.name}" %>
+<% @page_heading = "Editing user - #{@user.email}" %>
 <% content_for('tasks') do %>
   <li><%= link_to "Cancel and Go Back", :action=>"index" %>
 <% end %>
 
 <div class="form">
   <div class="form_container">
-<%= start_form_tag :action=>"edit", :id=>@user.id %>
-  <%= render(:partial=>"form") %>
+<%  form_for @user, :url => admin_user_path(@user) do |user| %>
+  <%= render :partial => 'form', :locals => {:user => user} %>
 <div class="operations">
 <input type="submit" value="Save"/>
 </div>
-<%= end_form_tag %>
+  <% end %>
   </div>
 </div>

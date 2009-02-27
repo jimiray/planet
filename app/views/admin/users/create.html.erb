@@ -5,11 +5,11 @@
 
 <div class="form">
   <div class="form_container">
-<%= start_form_tag :action=>"create" %>
-  <%= render(:partial=>"form") %>
-<div class="operations">
-<input type="submit" value="Add User"/>
-</div>
-<%= end_form_tag %>
+  <% form_for :user,  :url => admin_users_path do |user| %>
+    <%= render :partial => 'form', :locals => {:user => user} %>
+    <div class="operations">
+      <input type="submit" value="Add User"/>
+    </div>
+    <% end %>
   </div>
 </div>
