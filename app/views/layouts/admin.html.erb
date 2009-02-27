@@ -12,9 +12,9 @@
       <div id="header">
         <div id="info">
           <ul id="nav2">
-          <%= tab "Feeds", :controller=>"feed", :action=>"index" %>
-          <%= tab "Users", :controller=>"user", :action=>"index" %>
-          <%= tab "Log Out", :controller=>"/account", :action=>"logout" %>
+          <%= tab "Feeds", admin_feeds_path %>
+          <%= tab "Users", admin_users_path %>
+          <%= tab "Log Out", logout_url %>
         </div>
         <h1 id="title">railsplanet - <%=h CONFIG['planet_name'] %></h1>
       </div>
