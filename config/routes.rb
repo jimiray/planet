@@ -8,7 +8,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :passwords
   
   map.namespace :admin do |admin|
-    admin.resources :feeds, :collection => {:search => :post}
+    admin.resources :feeds, :collection => {:search => :post}, :member => {:publish => :get, :unpublish => :get}
     admin.resources :users
   end
   
@@ -32,5 +32,5 @@ ActionController::Routing::Routes.draw do |map|
   map.connect ':controller/service.wsdl', :action => 'wsdl'
   
   # Install the default route as the lowest priority.
-  map.connect ':controller/:action/:id'
+  #map.connect ':controller/:action/:id'
 end
