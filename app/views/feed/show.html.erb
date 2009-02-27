@@ -1,8 +1,0 @@
-<% for column in Feed.content_columns %>
-<p>
-  <b><%= column.human_name %>:</b> <%= @feed[column.name] %>
-</p>
-<% end %>
-
-<%= link_to 'Edit', :action => 'edit', :id => @feed.id %> |
-<%= link_to 'Back', :action => 'list' %>
