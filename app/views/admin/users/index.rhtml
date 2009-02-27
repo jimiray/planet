@@ -1,0 +1,21 @@
+<% @page_heading = 'Users' %>
+
+<% content_for('tasks') do %>
+  <li><%= link_to_function "Add New User",  "new Effect.BlindDown('add')" %></li>
+<% end %>
+<div id="add" style="display: none;">
+  <div class="form">
+    <h3>Add A User</h3>
+    <%= start_form_tag :action=>"create" %>
+    <div class="form_container">
+      <%= render(:partial=>"form") %>
+      <div class="operations">
+        <input type="submit" value="Add User"/> or <%= link_to_function "Cancel", "new Effect.BlindUp('add')" %>
+      </div>
+    </div>
+    <%= end_form_tag %>
+  </div>
+</div>
+<div class="block">
+  <%= render :partial => 'user', :collection => @users  %>
+</div>
