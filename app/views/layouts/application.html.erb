@@ -30,7 +30,7 @@
 		    <%= link_to "ATOM", :controller=>"xml", :action=>"atom" %><br/>
 		    <%= link_to "OPML", :controller=>"xml", :action=>"opml" %>
 	      <h3>Feeds</h3>
-        <%= render_component :controller=>"feed", :action=>"list" %>
+        <%= render_component :controller=>"feeds", :action=>"list" %>
 		  <h3>About</h3>
 		  <p>Original code provided by <a href="http://blog.leetsoft.com">Tobias Lütke</a>.  Modified by
 		  <a href="mailto:jim@mosaicglobe.com">Jim Ray</a>.</p>
