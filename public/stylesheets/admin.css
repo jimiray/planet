@@ -431,3 +431,7 @@ table.list td.title {
   margin: 5px;
   padding: 5px;
 }
+
+.pagination {
+	text-align: center;
+}
