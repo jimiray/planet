@@ -5,7 +5,7 @@ class ShowController < ApplicationController
   
   def index
    # @pages, @posts = paginate :post, :per_page=>20, :order_by=>"created_at DESC"
-   @posts = Post.paginate :page => 1, :per_page => 20, :order => "created_at DESC"
+   @posts = Post.paginate :page => params[:page], :per_page => 20, :order => "created_at DESC"
   end
 
   def search
