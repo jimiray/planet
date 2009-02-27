@@ -53,7 +53,5 @@ end
 # Include your application configuration below
 gem 'feedtools'
 gem 'acts_as_taggable'
-require_dependency 'config_manager' 
-require_dependency 'configuration'
 
 CONFIG = YAML::load(File.open("#{RAILS_ROOT}/config/config.yml"))
