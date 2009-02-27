@@ -1,4 +1,4 @@
-class FeedController < ApplicationController
+class FeedsController < ApplicationController
 
   def list
     @feeds = Feed.find(:all, :conditions=>"approved=1", :order=>"title")
