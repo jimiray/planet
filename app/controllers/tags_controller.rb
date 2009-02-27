@@ -5,7 +5,7 @@ class TagsController < ApplicationController
   end
   
   def view
-    @posts = Post.find_tagged_with( :all => @params[:id], :separator => ' ', :order=>"posts.created_at DESC")
+    @posts = Post.find_tagged_with(:all => params[:id], :separator => ' ', :order =>  "posts.created_at DESC")
   end
   
 end
