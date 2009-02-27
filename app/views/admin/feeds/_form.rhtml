@@ -1,0 +1,14 @@
+<%= error_messages_for 'feed' %>
+<h3>Feed Information</h3>
+<div class="block">
+<dl>
+  <dt><label for="feed_title">Name:</label></dt>
+  <dd><%= feed.text_field :title %></dd>
+  <dt><label for="feed_author">Author:</label></dt>
+  <dd><%= feed.text_field :author %></dd>
+  <dt><label for="feed_url">Feed URL:</label></dt>
+  <dd><%= feed.text_field :url %></dd>
+  <dt><label for="feed_link">Blog URL:</label></dt>
+  <dd><%= feed.text_field :link %></dd>
+</dl>
+</div>
