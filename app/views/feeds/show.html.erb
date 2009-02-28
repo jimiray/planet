@@ -1,8 +1,7 @@
-<% for column in Feed.content_columns %>
-<p>
-  <b><%= column.human_name %>:</b> <%= @feed[column.name] %>
-</p>
-<% end %>
+<p>Posts from <%= link_to @feed.title, @feed.link %>...</p>
 
-<%= link_to 'Edit', :action => 'edit', :id => @feed.id %> |
-<%= link_to 'Back', :action => 'list' %>
+<% if @posts.size == 0  -%>
+<p>No posts to show....</p>
+<% else %>
+  <%= render :partial => "posts/post", :collection => @posts %>
+<% end -%>
