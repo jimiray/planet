@@ -1,0 +1,10 @@
+<% if post.body %>
+<div class="entry">
+	<h2 class="title"><a href="<%= post.url %>" rel="bookmark" title="Permanent Link: <%= post.title %>"><%= post.title  %></a></h2>
+	<p class="metadata">Posted by <%= h post.author || post.feed.author %> <%= distance_of_time_in_words_to_now post.created_at %> ago</p>
+	<%= CGI::unescapeHTML(post.body) %>
+	<% if post.tags.size != 0 %>
+	<div style="text-align: right;">Tags: <%= post.tags.collect {|t| link_to t.name, :controller => 'tags', :action => 'show', :id => t.name}.join(", ") -%></div>
+	<% end %>
+</div>
+<% end %>

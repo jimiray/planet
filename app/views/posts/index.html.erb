@@ -1,0 +1,5 @@
+<% if @posts.empty?  -%>
+<p>No posts to show....</p>
+<% else %>
+  <%= render :partial=>"post", :collection=>@posts %>
+<% end -%>
