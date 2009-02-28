@@ -70,3 +70,4 @@ gem 'acts_as_taggable'
 CONFIG = YAML::load(File.open("#{RAILS_ROOT}/config/config.yml"))
 HOST="planetrubyonrails.org"
 DO_NOT_REPLY = "donotreply@example.com"
+Mime::Type.register "text/xml", :opml
