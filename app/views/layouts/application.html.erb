@@ -26,9 +26,9 @@
 		  </form>
 		  (word|+word|-word)<br/>
 		    <h3>Subscribe</h3>
-		    <%= link_to "RSS", :controller=>"xml", :action=>"rss", :onclick => "javascript:urchinTracker('/outgoing/rss');" %><br/>
-		    <%= link_to "ATOM", :controller=>"xml", :action=>"atom" %><br/>
-		    <%= link_to "OPML", :controller=>"xml", :action=>"opml" %>
+		    <%= link_to "RSS", formatted_posts_path(:format => :rss)  %><br/>
+		    <%= link_to "ATOM", formatted_posts_path(:format => :atom)  %><br/>
+		    <%= link_to "OPML", formatted_feeds_path(:format => :opml) %>
 	      <h3>Feeds</h3>
         <%= render_component :controller=>"feeds", :action=>"list" %>
 		  <h3>About</h3>
