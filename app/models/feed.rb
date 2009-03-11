@@ -1,9 +1,10 @@
-#require 'simple-rss-1.0.0/lib/simple-rss'
-#require 'open-uri'
+require 'feedzirra'
 
 class Feed < ActiveRecord::Base
   
   has_many :posts, :dependent => :delete_all
+  
+  named_scope :approved, :conditions => ['approved=1']
   
   #acts_as_paranoid
   
@@ -17,21 +18,54 @@ class Feed < ActiveRecord::Base
     end
   end
   
+  def self.fetch_all
+    feed_array = []
+    feeds = Feed.approved
+    feeds.collect {|feed| feed_array << feed.url}
+    contents = Feedzirra::Feed.fetch_and_parse(feed_array)
+    contents.each do |key, values|
+      #feed = find_by_url(key)
+      update_entries(key, values.entries)
+    end
+    
+    
+    
+  end
+  
+  def self.update_entries(feed, entries)
+    f = find_by_url(feed)
+    entries.each do |item|
+      unless post = f.posts.find(:first, :conditions=>["guid=? OR title=?", item.guid, item.title])
+        post = f.posts.build 
+      end
+      if post.title != item.title or post.body != item.description or post.url != item.link
+        tags = Array.new
+        item.categories.each do |category|
+          tags << category.category.gsub(" ", "_").downcase.chomp
+        end
+        post.url = item.url or raise "post has no link tag"
+        post.title = item.title or "no title"
+        post.body = item.summary or "no text"
+        post.created_at = item.published if item.published
+        post.guid = item.guid
+        post.author = item.author
+        post.created_at = item.dc_date if item.respond_to?(:dc_date) && item.dc_date
+        post.save
+        post.tag_names = tags.join(" ")
+        post.save
+      end
+    end
+  end
+  
   private
   
   validates_presence_of :url
   #validates_uniqueness_of :url, :title, :link, :message=>"is already available"
   
   def valid_feed?(url)
-    begin
-      FeedTools.configurations[:feed_cache] = nil
-      rss = FeedTools::Feed.open(self.url)
-      write_attribute :title, rss.title if rss.title
-      write_attribute :link, rss.link if rss.link
-      write_attribute :feed_type, rss.feed_type if rss.feed_type
-    rescue => e
-      errors.add("url", "is not available")      
-    end
+    rss = Feedzirra::Feed.fetch_and_parse(self.url)
+    write_attribute :title, rss.title if rss.title
+    write_attribute :link, rss.url if rss.url
   end
   
 end
